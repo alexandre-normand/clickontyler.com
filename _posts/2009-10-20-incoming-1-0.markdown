@@ -1,0 +1,10 @@
+---
+date: 2009-10-20 16:59:47
+title: Incoming! 1.0
+layout: post
+permalink: /blog/2009/10/incoming-1-0/index.html
+slug: incoming-1-0
+---
+So it's been almost two months since I last posted. I've had <a href="http://clickontyler.com/blog/2009/07/virtualhostx-2-0/">a lot</a> <a href="http://yodelstudio.yahoo.com/us/">going on</a>, but mainly it's because I've been hard at work pushing out beta releases of Incoming! -- my <a href="http://clickontyler.com/incoming/">Twitter search client</a> -- and gearing up for the big one-point-oh release. It's been three months since the first public preview, and today I'm happy to announce 1.0 is <a href="http://clickontyler.com/incoming/">officially available</a>.
+
+I want to say a big thank-you to all my beta testers and early adopters. I've received a ton of great feedback over the last three months -- it's helped make Incoming! a much better product than I could have built on my own.

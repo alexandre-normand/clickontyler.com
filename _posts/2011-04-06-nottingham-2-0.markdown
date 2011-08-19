@@ -1,0 +1,49 @@
+---
+date: 2011-04-06 17:27:34
+title: Nottingham 2.0
+layout: post
+permalink: /blog/2011/04/nottingham-2-0/index.html
+slug: nottingham-2-0
+---
+It may have taken a few months longer than expected, but today I'm happy to announce that [Nottingham 2.0](http://clickontyler.com/nottingham) is out of beta and now available.
+
+![Nottingham 2.0 Screenshot](http://cdn.tyler.fm/images/n2-ss1.png)
+
+I covered most of Nottingham's new features in January when I announced the first public [beta release](http://clickontyler.com/blog/2011/01/nottingham-2-0-public-preview/). But here's a recap...
+
+ * **Widescreen layout** - you can now rotate the Nottingham window between portrait and landscape orientations. This is a great feature if, like me, you spend much of your time on an 11" Macbook Air or one of Apple's new 16:9 displays.
+ * **Plain text files** - Nottingham now stores your notes as plain text files in the folder of your choosing. For those of you not using Simplenote to sync your notes, this will make synchronization with [Dropbox](http://www.dropbox.com/) a snap.
+ * **Simplenote v2** - I've updated sync support to use [Simplenote's](http://simplenoteapp.com/) latest version 2.0 API. This means faster syncing, better note merging, and the ability to sync your tags as well.
+ * **Tags** - Speaking of which, you can now tag your notes directly inside Nottingham. They'll show up in-line in the note list.
+ * **Multiple folders** - While Nottingham always has a "main" folder of notes, you're free to open multiple folders ad-hoc if you need to quickly edit or switch between different libraries of notes.
+ * **Global shortcut key** - A much requested feature, you can now bring Nottingham to the front with a hotkey of your choosing
+ * **Full Markdown web previews** - Previously, you could choose a custom CSS stylesheet to apply to the web preview window. Now, you can define a fully custom HTML template. It's a great way to store and edit your draft blog posts. You can also quickly copy or export the rendered HTML for use in other apps.
+ * **Wiki links** - Nottingham will automatically link titles of other notes when they appear in a note's contents. Like a wiki, you can quickly click to jump between related notes this way.
+
+### Upgrades for Existing Users ###
+
+All existing customers will get a 50% discount on the new version. (Users who recently purchased within the last 90 days will get a free upgrade.) Simply [go here to upgrade](http://clickontyler.com/nottingham/upgrade/) and enter the email address you originally purchased Nottingham with. If you don't remember your email &mdash; or have any other questions about upgrading &mdash; feel free to [get in touch](http://clickontyler.com/contact/) and I'll be happy to lookup your order.
+
+### Automatic Updates ###
+
+Nottingham has always had automatic in-app updates built-in. However, 2.0 changes how those work slightly, and I wanted to take a minute and explain the changes.
+
+With the huge success of the iOS App Store &mdash; and the new Mac App Store &mdash; Apple provides automatic update notifications to users whenever there's a new version of an app available. These notifications are baked into the OS and always present.
+
+I've decided to follow suit and have made Nottingham's update checks mandatory. In other words, there's no longer a setting in the Preferences to turn off automatic updates. This doesn't mean you have to download and install the new update &mdash; you're free to ignore it &mdash; but Nottingham will prompt you to update the first time it sees the new version is available.
+
+I'm making this change because I believe it's important to get fixes and updates out to you as quickly as possible. Previously, Nottingham would check for new versions about once a week. I've increased that to once per day in this new release. I think timeliness is critical for an app like Nottingham that stores your personal information (your notes). If a bug was discovered in Nottingham that caused you to lose data, I want to be sure I can push a fix out as quickly as possible. Sure, I could write a blog post or a tweet alerting users, but there's no guarantee you'll see it in time. I hope you'll agree the more frequent checks are worthwhile.
+
+Another reason for the change is this puts the downloadable version of Nottingham on par with how updates work in the Mac App Store version (due out later this month). App Store users will get notified of updates (via Apple) the same day they're available. This change helps me ensure the rest of you get alerted as well.
+
+So why am I calling this out explicitly? Because there are a lot of users who worry (justifiably) about apps "phoning home" or playing fast and loose with their personal data. Above all things, I want to maintain the trust of you, my users, which is why I'm doing my best to tell you all this up-front.
+
+Typically, when a Mac app checks for an update, it also sends along anonymous usage information like what version of OS X you're running or what kind of Mac you have. These stats help developers choose which Macs to support in future versions of their apps. Still, users have always been able to opt-out of sending this information or turn off automatic updates completely. But since that's no longer and option in Nottingham, I've gone the extra step of no longer sending the usage data either. I hope this compromise will assuage any worries you might have about the app automatically checking for updates. To be clear, absolutely **no** information is sent along with the update check. If that should ever change, I'll add back in a Preference to let users opt-out (which will be the default) ahead of time.
+
+If you've got any questions about this, feel free to [contact me](http://clickontyler.com/contact/) and I'll be happy to discuss it.
+
+For those users who are still worried and really don't like the idea of apps checking for updates, I've left a "back door" method in place for you to turn them off if you really want to. Just open up a Terminal window and run this command:
+
+<script src="https://gist.github.com/906065.js"> </script>
+
+That will disable the update checking.

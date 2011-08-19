@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div id="bd" class="blog">
+	<div class="yui-g band1">
+		<div class="post">
+			<h2><a href="http://clickontyler.com{{ page.permalink | replace:'index.html','' }}" rel="bookmark" title="Permanent Link to {{ page.title }}">{{ page.title }}</a></h2>
+			<p class="dt">{{ page.date | date: "%A, %B %d, %Y" }}</p>
+			<div class="entry">
+				{{ content }}
+			</div>
+		</div>
+	</div>
+	<div class="yui-g band2">
+		{% if page.previous %}
+		<div class="yui-u first left">
+			<p><a href="{{ page.previous.url | replace:'index.html','' }}">&laquo; {{ page.previous.title }}</a></p>
+		</div>
+		{% endif %}
+		{% if page.next %}
+		<div class="yui-u right">
+			<p><a href="{{ page.next.url | replace:'index.html','' }}">{{ page.next.title }} &raquo;</a></p>
+		</div>
+		{% endif %}
+	</div>
+</div>

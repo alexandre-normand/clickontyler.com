@@ -1,0 +1,51 @@
+---
+title: VirtualHostX - Mac OS X Apache Virtual Hosting
+layout: default
+permalink: /index.html
+description: VirtualHostX is the best way to host multiple websites on your Mac. It lets you easily create Apache virtual hosts on Mac OS X.
+---
+<div id="bd" class="product"> 
+	<div class="yui-gd band1"> 
+	    <div class="yui-u first center"> 
+			<img src="http://cdn.tyler.fm/images/virtualhostx-logo180.png" width="180" height="180"> 
+	    </div> 
+	    <div class="yui-u left"> 
+			<h2>VirtualHostX</h2> 
+			<p><em>Create MAMP and Apache virtual hosts on your Mac</em></p>
+			<p>VirtualHostX 2.0 is the easiest way to host multiple websites on your Mac. It's the perfect solution for web designers working on more than one project at a time. (Aren't we all?) No more nesting folders or asking the programmer across the cubicle for help. With VirtualHostX you can easily create and manage Apache virtual hosts with just a few clicks. <a href="/virtualhostx/download/">Download today</a>!</p> 
+			<p>Version 2.0 is more than just a new logo. Now VirtualHostX offers finer-grained control over your Apache settings, and works with MAMP, XAMPP, and Apple's built-in web server. It even lets you share your virtual hosts with other users on your local network.</p> 
+	    </div> 
+	</div> 
+	<div class="yui-g band2 center"> 
+		<a href="/virtualhostx/download/"><img src="http://cdn.tyler.fm/images/download.png" width="273" height="59"></a> 
+		<a href="https://sites.fastspring.com/clickontyler/instant/virtualhostx"><img src="http://cdn.tyler.fm/images/addtocart.png" width="273" height="59"></a> 
+	</div> 
+	<div class="yui-g band3"> 
+		<h3>Screen Shots</h3> 
+		<a href="http://cdn.tyler.fm/images/vhx2-ss1.png" class="fb"><img src="http://cdn.tyler.fm/images/vhx2-ss1-sm.png" width="125" height="125"></a> 
+		<a href="http://cdn.tyler.fm/images/vhx2-ss2.png" class="fb"><img src="http://cdn.tyler.fm/images/vhx2-ss2-sm.png" width="125" height="125"></a> 
+		<a href="http://cdn.tyler.fm/images/vhx2-ss3.png" class="fb"><img src="http://cdn.tyler.fm/images/vhx2-ss3-sm.png" width="125" height="125"></a> 
+		<div id="requirements" style="float:right;"> 
+			<img src="http://cdn.tyler.fm/images/universal-binary.png" width="120" height="75"><br> 
+			Requires Mac OS X 10.5.8 (Leopard) or greater.<br/><br/>Does not support Mac OS X Server edition.
+		</div> 
+	</div> 
+	<div class="yui-g band4"> 
+		<h3>Features</h3> 
+		<ul> 
+			<li>Automatically configures your Mac's web server settings</li> 
+			<li>Works with <a href="http://bitbob.com/mac-web-development-made-easy">MAMP</a>, XAMPP, and <a href="http://lunatic.web.id/webdev/native-web-development-apache-php-and-mysql-on-mac-osx-leopard/">Apple's built-in web server</a></li> 
+			<li>Share your hosts with other users on the same local network</li> 
+			<li>Supports custom Apache directives</li> 
+			<li>Backup and Restore your web server settings</li> 
+			<li><a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">Create a complete web development environment on your Mac</a></li> 
+		</ul> 
+    </div> 
+	<div class="yui-g band5"> 
+		<h3>What they're saying</h3> 
+		<blockquote>VirtualHostX takes all the pain out of running multiple websites on your Mac. My only wish is that I had started using it sooner.<cite><a href="http://happycog.com/about/warren/">Brian Warren</a>, Senior Designer/Developer, Happy Cog Studios</cite></blockquote> 
+		<blockquote>Pretty much an essential purchase for any serious Mac-based web designer. &#9733;&#9733;&#9733;&#9733;&#9733; <cite>MacFormat <a href="http://www.techradar.com/reviews/pc-mac/software/utilities/other-software/tyler-hall-virtualhostx-631505/review">November 2009</a></cite></blockquote> 
+		<blockquote>Having discovered VirtualHostX, I can&#8217;t imagine going down the path of manually editing OS X configuration files ever again. <cite>Derek P., <a href="http://5thirtyone.com/archives/2046">5ThirtyOne</a></cite></blockquote> 
+		<blockquote>What VirtualHostX does is, indeed, drop dead easy . . . It&#8217;s about three clicks to make it work and you don&#8217;t have to restart your Mac . . . How cool is that? . . . Add as many virtual hosts (domain names) as you want, then develop web sites until your face is blue or the cows come home.<cite>Kate MacKenzie, <a href="http://mac360.com/index.php/mac360/comments/get_a_virtual_web_host_on_your_mac_that_just_works/">Mac360.com</a></cite></blockquote> 
+	</div>
+</div>

@@ -1,0 +1,48 @@
+---
+title: Incoming! - A Twitter Search Client for Mac OS X
+layout: default
+permalink: /index.html
+---
+<div id="bd" class="product"> 
+	<div class="yui-gd band1"> 
+	    <div class="yui-u first center"> 
+			<img src="http://cdn.tyler.fm/images/incoming-logo180.png" width="180" height="180"> 
+	    </div> 
+	    <div class="yui-u left"> 
+			<h2>Incoming!</h2> 
+			<p><em>The best way to search Twitter on your Mac</em></p>
+			<p>Incoming! is a Twitter search client designed for power users and social media experts. It lets you cut through the noise and find the tweets that matter to you most &mdash; so you can follow your favorite topics or keep track of what users are saying about you and your company. <a href="/incoming/download/">Download today!</a></p> 
+			<p>Unlike other apps, <em>Incoming! is dedicated to searching Twitter</em>. Follow the latest trending topics, create advanced searches, or stalk your favorite users. Incoming! does it all with a clean, powerful interface built exclusively for Mac OS X.</p> 
+	    </div> 
+	</div> 
+	<div class="yui-g band2 center"> 
+		<a href="/incoming/download/"><img src="http://cdn.tyler.fm/images/download.png" width="273" height="59"></a> 
+		<a href="https://sites.fastspring.com/clickontyler/instant/incoming"><img src="http://cdn.tyler.fm/images/addtocart.png" width="273" height="59"></a> 
+	</div> 
+	<div class="yui-g band3"> 
+		<h3>Features</h3> 
+		<ul> 
+			<li>Translate tweets into your language with one click.</li> 
+			<li>See an aggregated list of all the links users are tweeting.</li> 
+			<li>Scroll through hundreds of attached Twitpic and yfrog images.</li> 
+			<li>Manage your search results. Reply, retweet, and flag tweets for followup.</li> 
+			<li>Our "Influencer" score filters out the spammers and shows you the users who matter most.</li> 
+		</ul> 
+	</div> 
+	<div class="yui-g band4"> 
+		<h3>Screen Shots</h3> 
+		<a href="http://cdn.tyler.fm/images/incoming-ss1.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss1-sm.jpg" width="115" height="82"></a> 
+		<a href="http://cdn.tyler.fm/images/incoming-ss2.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss2-sm.jpg" width="115" height="82"></a> 
+		<a href="http://cdn.tyler.fm/images/incoming-ss3.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss3-sm.jpg" width="115" height="82"></a> 
+		<a href="http://cdn.tyler.fm/images/incoming-ss4.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss4-sm.jpg" width="115" height="82"></a> 
+		<div id="requirements"> 
+			Requires Mac OS X 10.6 (Snow Leopard) or greater
+		</div> 
+    </div> 
+	<div class="yui-g band5"> 
+		<h3>What they're saying</h3> 
+		<blockquote>Itâ€™s the closest thing to a Google for Twitter I've yet come across. <cite><a href="http://theappleblog.com/2009/08/14/incoming-new-twitter-app-for-mac-that-only-lets-you-search/">The Apple Blog</a></cite></blockquote> 
+		<blockquote>Incoming reduces the noise and clutter and makes it easy to click between topics, find trends, even track what others say about you or your company. Incoming is well done and worth a look, whether you tweet or read tweets. <cite><a href="http://mac360.com/index.php/mac360/comments/do_you_tweet_on_a_mac_incoming_searches_twitter/">Mac360</a></cite></blockquote> 
+		<blockquote>The more I used Incoming! the more I realized its potential especially as a tool for business and the more I liked it. <cite>Allison Sheridan on <a href="http://www.surfbits.com/?p=2414">SurfBits</a></cite></blockquote> 
+	</div> 
+</div>
