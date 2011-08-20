@@ -18,10 +18,3 @@ RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
 
 RewriteCond %{HTTP_HOST} ^www\.clickonideas\.com$
 RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
-
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME}/index.php !-f
-RewriteCond %{REQUEST_FILENAME}/index.html !-f
-RewriteRule . /index.php [L]
-
