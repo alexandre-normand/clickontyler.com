@@ -6,5 +6,5 @@ exit;
 	$v->downloads++;
 	$v->update();
 	Download::track();
-	file_get_contents('http://clickontyler.com/mint/pepper/tillkruess/downloads/tracker.php?remote&url=' . $v->url);
+	file_get_contents('http://mint.clickontyler.com/pepper/tillkruess/downloads/tracker.php?remote&url=' . $v->url);
 	header('Location: ' . $v->url);

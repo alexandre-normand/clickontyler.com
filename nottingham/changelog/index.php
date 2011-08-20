@@ -1,3 +1,3 @@
 <?PHP
         $_GET['id'] = 11;
-        include '../../../shine.clickontyler.com/changelog.php';
+        include '/var/www/shine.clickontyler.com/changelog.php';
