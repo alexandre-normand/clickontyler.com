@@ -5,7 +5,7 @@ layout: post
 permalink: /blog/2010/11/sosumi-for-mac-find-your-iphone-from-your-deskop/index.html
 slug: sosumi-for-mac-find-your-iphone-from-your-deskop
 ---
-<img src="http://cdn.tyler.fm/images/sosumi-icon.png" style="float:right;">Every holiday, between the food and family, I always seem to find time for a quick project. Last year I built the first version of [Nottingham](http://clickontyler.com/nottingham/) over the Thanksgiving break. This year was no exception, and I found myself putting the final touches on [Sosumi for Mac](http://clickontyler.com/sosumi/) after an eighteen hour coding streak this weekend.
+Every <img src="http://cdn.tyler.fm/images/sosumi-icon.png" style="float:right;"> holiday, between the food and family, I always seem to find time for a quick project. Last year I built the first version of [Nottingham](http://clickontyler.com/nottingham/) over the Thanksgiving break. This year was no exception, and I found myself putting the final touches on [Sosumi for Mac](http://clickontyler.com/sosumi/) after an eighteen hour coding streak this weekend.
 
 Sosumi for Mac builds on the original [Sosumi project](https://github.com/tylerhall/sosumi) I started last Summer &mdash; a PHP script that returned the location of your iPhone by scraping MobileMe's website and that eventually evolved to use Apple's "official" API once that was released.
 

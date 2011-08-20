@@ -1,6 +1,6 @@
 ---
 date: 2011-04-18 04:17:07
-title: "Unsupported Architecture" When Submitting to Mac App Store
+title: Unsupported Architecture When Submitting to Mac App Store
 layout: post
 permalink: /blog/2011/04/unsupported-architecture-when-submitting-to-mac-app-store/index.html
 slug: unsupported-architecture-when-submitting-to-mac-app-store

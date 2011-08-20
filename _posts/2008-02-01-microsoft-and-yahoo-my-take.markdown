@@ -18,7 +18,7 @@ great tech giant doesn't come from a Googler - but a Yahoo?
 If (when) Microsoft buys Yahoo!, how many developers will stick around for
 what is sure to be a righteous clash of cultures? In his [letter to Yahoo!](http://dealbook.blogs.nytimes.com/2008/02/01/microsofts-letter-to-yahoo/),
 Steve Ballmer writes that Microsoft intends "to offer significant retention
-packages to [Yahoo!'s] engineers." [Forty-four billion dollars](http://www.nytimes.com/2008/02/02/technology/02yahoo.html?ref=technology)
+packages to \[Yahoo!'s\] engineers." [Forty-four billion dollars](http://www.nytimes.com/2008/02/02/technology/02yahoo.html?ref=technology)
 is certainly enough to buy the company. But does Microsoft have enough money
 to buy the loyalty of Yahoo!'s engineers? Many of whom are working at Yahoo!
 precisely because they __don't__ want to work for a company like Microsoft.

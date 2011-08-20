@@ -5,7 +5,7 @@ layout: post
 permalink: /blog/2008/05/using-amazon-s3-as-a-content-delivery-network/index.html
 slug: using-amazon-s3-as-a-content-delivery-network
 ---
-[**Update:** You might also be interested in [s3up](http://clickontyler.com/blog/2009/02/serving-static-content-on-amazon-s3-with-s3up/) for storing static content in Amazon S3.]
+\[**Update:** You might also be interested in [s3up](http://clickontyler.com/blog/2009/02/serving-static-content-on-amazon-s3-with-s3up/) for storing static content in Amazon S3.\]
 
 Earlier this week I posted about [my experience redesigning this site](http://clickontyler.com/blog/2008/05/building-a-better-website-with-yahoo/), focusing on optimizing my page load times using [YSlow](http://developer.yahoo.com/yslow/). A large part of that process involved storing static content (images, stylesheets, JavaScript) on Amazon S3 and using it like a poor man's content delivery network (CDN). I made some hand-waving references to a deploy script I wrote which handles syncing content to S3 and also adding expiry headers and gzipping that data. A couple users emailed asking for more info, so, here goes.
 

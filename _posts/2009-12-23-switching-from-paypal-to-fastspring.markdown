@@ -15,4 +15,4 @@ The only tricky part I came across was creating a custom theme based on their de
 
 You can download the default theme I put together, <a href="http://cdn.tyler.fm/blog/fastspring-default.zip">here</a>. Hopefully it'll save you some time. Or, better yet, maybe FastSpring would be kind enough to post it to their documentation page for everyone else to use as well.
 
-<strong>Update:</strong> Did I say legendary customer support? I mean it. It's a little after 1am here, and FastSpring just emailed me a quick thank you along with their official default theme. Awesome work guys (and gals).
+**Update:** Did I say legendary customer support? I mean it. It's a little after 1am here, and FastSpring just emailed me a quick thank you along with their official default theme. Awesome work guys (and gals).

@@ -20,8 +20,9 @@ through to their site to see the full story. Let's fix this.
 
 The basic steps in scraping a site are:
 
-  * Pull-down a copy of the content to scrape. In this case, the [political ticker homepage](http://politicalticker.blogs.cnn.com/).
-  * Create a regular expression that will match the items you want to show in your new RSS feed. In this example we're grabbing each individual news item.</li> <li>Then, format the extracted data into an RSS item and serve it back to the user.
+* Pull-down a copy of the content to scrape. In this case, the [political ticker homepage](http://politicalticker.blogs.cnn.com/).
+* Create a regular expression that will match the items you want to show in your new RSS feed. In this example we're grabbing each individual news item.
+* Then, format the extracted data into an RSS item and serve it back to the user.
 
 That's a basic overview of the process. You can see the [completed source code here](http://code.google.com/p/tylerhall/source/browse/trunk/cnn-political-ticker-rss/feed.php).
 

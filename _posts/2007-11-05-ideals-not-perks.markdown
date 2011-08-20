@@ -41,8 +41,8 @@ anyone willing to try would be able to access our website - whether it be
 through a cellphone, text browser, or screen reader.
 
 There wasn't much hesitation in the answer I got back. The COO said flatly
-"Who cares if our website is accessible? Blind people aren't going to buy [our
-product name] anyway."
+"Who cares if our website is accessible? Blind people aren't going to buy \[our
+product name\] anyway."
 
 I was a little shocked. Up until this point I had thought quite highly of him
 and the corporate ideals he and the other executives often spoke about. I had
