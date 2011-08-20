@@ -19,14 +19,16 @@ I've done my best to keep things logical and easy to use. Here's a quick example
 
 A basic content block, or module, is created with the following markup
 
-    <div class="block">
-        <div class="hd">
-            <h2>Your Header Content</h2>
-        </div>
-        <div class="bd">
-            <p>Your body content goes here.</p>
-        </div>
+{% highlight html linenos %}
+<div class="block">
+    <div class="hd">
+        <h2>Your Header Content</h2>
     </div>
+    <div class="bd">
+        <p>Your body content goes here.</p>
+    </div>
+</div>
+{% endhighlight %}
 
 You have a containing `div` with a class name of `block` surrounding two inner `divs`, which make up the head and body content of the block. In the browser you'll see
 
@@ -36,19 +38,21 @@ Content blocks resize to fit their surroundings. That means you can take the sam
 
 We can also extend the block to have a tabbed appearance. To do this, we just need to add an extra `tabs` class and define our tabs using a &lt;ul&gt;.
 
-    <div class="block tabs">
-        <div class="hd">
-            <ul>
-                <li class="active"><a href="#">Tab 1</a></li>
-                <li><a href="#">Tab 2</a></li>
-                <li><a href="#">Tab 3</a></li>
-            </ul>
-            <div class="clear"></div>
-        </div>
-        <div class="bd">
-            <p>Your body content goes here.</p>
-        </div>
+{% highlight html linenos %}
+<div class="block tabs">
+    <div class="hd">
+        <ul>
+            <li class="active"><a href="#">Tab 1</a></li>
+            <li><a href="#">Tab 2</a></li>
+            <li><a href="#">Tab 3</a></li>
+        </ul>
+        <div class="clear"></div>
     </div>
+    <div class="bd">
+        <p>Your body content goes here.</p>
+    </div>
+</div>
+{% endhighlight %}
 
 ![YUI App Theme content block with tabs preview](http://cdn.tyler.fm/blog/yuiapp-ss2.20090308235540.png)
 
@@ -58,19 +62,21 @@ However, you'll notice than by using an unordered list to build our tabs, we had
 
 Let's take this example one step further and change the appearance of the tabs by making them look separated. All we have to do is add a `spaces` class to the content block.
 
-    <div class="block tabs spaces">
-        <div class="hd">
-            <ul>
-                <li class="active"><a href="#">Tab 1</a></li>
-                <li><a href="#">Tab 2</a></li>
-                <li><a href="#">Tab 3</a></li>
-            </ul>
-            <div class="clear"></div>
-        </div>
-        <div class="bd">
-            <p>Your body content goes here.</p>
-        </div>
+{% highlight html linenos %}
+<div class="block tabs spaces">
+    <div class="hd">
+        <ul>
+            <li class="active"><a href="#">Tab 1</a></li>
+            <li><a href="#">Tab 2</a></li>
+            <li><a href="#">Tab 3</a></li>
+        </ul>
+        <div class="clear"></div>
     </div>
+    <div class="bd">
+        <p>Your body content goes here.</p>
+    </div>
+</div>
+{% endhighlight %}
 
 And we get
 

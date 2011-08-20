@@ -7,8 +7,11 @@ slug: dial-a-phone-number-using-grand-central-and-php
 ---
 If you're lucky enough to have a [Grand Central](http://grandcentral.com) account, here's a quick [PHP class](http://github.com/tylerhall/php-grandcentral-dialer/) that will login to your account and dial a phone number. This is probably one of the more random bits of code I've ever written, but I think it's useful.
 
+{% highlight php linenos %}
+<?PHP
     $gc = new GrandCentral('gc_username', 'gc_password');
     $gc->call($your_number, $their_number);
+{% endhighlight %}
 
 And that's it. Grand Central will call `$your_number` and connect you to `$their_number`.
 

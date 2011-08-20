@@ -11,25 +11,33 @@ I pulled in some code from [PHP-AWS](http://code.google.com/p/php-aws/) and got 
 
 It's a small class &mdash; about 60 lines. It could easily be turned into a single function instead, but I like using classes as ad-hoc namespaces. Anyway, it's fairly robust for a twenty minute solution. Here are a few examples of the syntax it supports.
 
-    cmd -a -b -c // Single letter flags
+{% highlight bash linenos %}
+cmd -a -b -c // Single letter flags
 
-    cmd -abc // Same as above
+cmd -abc // Same as above
+{% endhighlight %}
 
 Beyond setting a few flags, you can also assign values to those flags.
 
-    cmd -a foobar.jpg -bc
+{% highlight bash linenos %}
+cmd -a foobar.jpg -bc
+{% endhighlight %}
 
 In this case, `b` and `c` are set just like the previous example. And `a` is set to the value `foobar.jpg` as you'd expect.
 
 Double-dash, long names are also supported.
 
-    cmd --some-flag
-    cmd --another-flag=charlie // You can use an equal sign
-    cmd --another-flag charlie // Or not. It's up to you.
+{% highlight bash linenos %}
+cmd --some-flag
+cmd --another-flag=charlie // You can use an equal sign
+cmd --another-flag charlie // Or not. It's up to you.
+{% endhighlight %}
 
 And those can be mixed with the single dash variants.
 
-    cmd -ab --bigflag=foo -c bar apricot orange
+{% highlight  linenos %}
+cmd -ab --bigflag=foo -c bar apricot orange
+{% endhighlight %}
 
 So, `a` and `b` are set. `bigflag` is set to "foo" and `c` is set to "bar". "apricot" and "orange" will appear as arguments not associated with any specific flag.
 
@@ -37,6 +45,8 @@ My point is that you can use nearly any standard Unix convention.
 
 So, given that last example, here's how you'd parse it using the PHP class.
 
+{% highlight php linenos %}
+<?PHP
     $args = new Args();
     
     if($args->flag('a'))
@@ -48,6 +58,7 @@ So, given that last example, here's how you'd parse it using the PHP class.
     foreach($args->args as $arg)
         // Do something with each argument.
         // Args will be bar, apricot, and orange.
+{% endhighlight %}
 
 So that's it. The class doesn't assume much. It just picks out what you give it. It's up to you, the programmer, to interpret those results.
 

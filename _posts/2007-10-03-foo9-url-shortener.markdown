@@ -76,6 +76,7 @@ take away the 5 look alikes - and you're left with 31:
 
 It's a fast solution and keeps the URL short. Here's the base-10 to 31 function:
 
+{% highlight php linenos %}
     function tenTo31($num)
     {
         $out   = "";
@@ -90,3 +91,4 @@ It's a fast solution and keeps the URL short. Here's the base-10 to 31 function:
     
         return $alpha[$num] . $out;
     }
+{% endhighlight %}

@@ -11,7 +11,10 @@ Luckily, we can solve this with Xcode 4's new "Behavior" settings and a little A
 
 Open up your favorite text editor and create the following script:
 
-<script src="https://gist.github.com/1078783.js?file=gistfile1.bash"></script>
+{% highlight bash linenos %}
+#!/bin/sh
+osascript -e 'tell app "System Events" to set position of window 1 of process "iOS Simulator" to {-864, 134}'
+{% endhighlight %}
 
 Where where {-864, 134} are the {X, Y} coordinates you'd like the simulator positioned at.
 

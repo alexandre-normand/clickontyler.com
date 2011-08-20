@@ -9,21 +9,29 @@ Unlike previous version of OS X, Leopard doesn't come with PHP's PEAR
 repository installed by default. Luckily, installing is quick and painless.
 From a command line:
 
-    curl http://pear.php.net/go-pear > go-pear.php
-    sudo php -q go-pear.php
+{% highlight bash linenos %}
+curl http://pear.php.net/go-pear > go-pear.php
+sudo php -q go-pear.php
+{% endhighlight %}
 
 Just press enter to select all the default choices _except for_ the installation directory. For that, use `/usr/local`. (Thanks, [Steve](http://hwork.tumblr.com/post/55657030/installing-php-pear-library-on-mac-osx-leopard).)
 
 Next we need to modify our `php.ini` file to include the new PEAR files:
 
-    sudo cp /etc/php.ini.default /etc/php.ini
+{% highlight bash linenos %}
+sudo cp /etc/php.ini.default /etc/php.ini
+{% endhighlight %}
 
 Edit `/etc/php.ini` and change
 
-    ;include_path = ".:/php/includes"
+{% highlight bash linenos %}
+;include_path = ".:/php/includes"
+{% endhighlight %}
 
 to read
 
-    include_path = ".:/usr/share/pear"
+{% highlight bash linenos %}
+include_path = ".:/usr/share/pear"
+{% endhighlight %}
 
 Restart Apache and you're done!

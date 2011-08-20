@@ -15,9 +15,9 @@ Until Apple releases a location API for MobileMe (not likely, and not their job)
 
 Example:
 
-<pre>
+{% highlight php linenos %}
+<?PHP
 $ssm = new Sosumi('username', 'password');
 $location_data = $ssm->locate();
 $ssm->sendMessage('Daisy, daisy...');
-</pre>
-
+{% endhighlight %}

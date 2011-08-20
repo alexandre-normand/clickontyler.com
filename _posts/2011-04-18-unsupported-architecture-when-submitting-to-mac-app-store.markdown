@@ -11,7 +11,9 @@ For any Mac developers out there who are seeing the following rejection notice w
 
 Make sure you verify that any included frameworks are Intel only. You can do this using the [`lipo`](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/lipo.1.html) command:
 
-    lipo -info /path/to/SomeFramework.framework/Versions/A/SomeFramework
+{% highlight bash linenos %}
+lipo -info /path/to/SomeFramework.framework/Versions/A/SomeFramework
+{% endhighlight %}
 
 If the output lists anything other than `i386` or `x86_64` you'll get rejected.
 

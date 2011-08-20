@@ -11,12 +11,16 @@ So, here's a quick PHP class that takes a movie title (doesn't have to be exact)
 
 Using the scraper is simple.
 
+{% highlight php linenos %}
+<?PHP
     $m = new MediaInfo();
     $info = $m->getMovieInfo('American Beauty');
     print_r($info);
+{% endhighlight %}
 
 will output:
 
+{% highlight php linenos %}
     Array
     (
         [kind] => movie
@@ -43,6 +47,7 @@ will output:
                 [Scott Bakula] => Jim Olmeyer
             )
     )
+{% endhighlight %}
 
 At the moment, the class only returns data for movies. For TV shows I'm planning on pulling data directly from the database I've created for Schmooze.TV (which, in turn, scrapes its info from [TVRage](http://www.tvrage.com/)).
 

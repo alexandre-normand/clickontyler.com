@@ -32,6 +32,8 @@ Deploying images is straight forward.
 
 Source:
 
+{% highlight php linenos %}
+<?PHP
     $files = scandir(DOC_ROOT . IMG_PATH);
     foreach($files as $fn)
     {
@@ -50,7 +52,7 @@ Source:
         else
             echo "Skipping $the_file\n";
     }
-
+{% endhighlight %}
 
 ### JavaScript and Stylesheets ###
 
@@ -58,16 +60,23 @@ The same process applies to JavaScript and stylesheets. The only difference is w
 
 In the master config file on my website, I set a variable called `$gz` like so:
 
+{% highlight php linenos %}
+<?PHP
     $gz  = strpos($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip') !== false ? 'gz.' : '';
+{% endhighlight %}
 
 That snippet detects if the user's browser supports gzip encoding and sets the variable appropriately. Then, throughout the site, I link to all of my JavaScript and CSS files like this:
 
+{% highlight html linenos %}
     <link rel="stylesheet" href="http://cdn.tyler.fm/css/main.<?PHP echo $gz;?>css" type="text/css">
+{% endhighlight %}
 
 That way, if the `$gz` variable is set, it adds a "gz." to the filename. Otherwise, the filename doesn't change. It's a quick way to transparently give the right file to the browser.
 
 With that out of the way, here's how I deploy the gzipped content:
 
+{% highlight php linenos %}
+<?PHP
     // List your stylesheets here for concatenation...
     $css  = file_get_contents(DOC_ROOT . CSS_PATH . 'reset-fonts-grids.css') . "\n\n";
     $css .= file_get_contents(DOC_ROOT . CSS_PATH . 'screen.css') . "\n\n";
@@ -91,6 +100,7 @@ With that out of the way, here's how I deploy the gzipped content:
     }
     else
         echo "Skipping combined.css\n";
+{% endhighlight %}
 
 You'll notice that the first thing I do is concatenate all of my files into a single file &mdash; that's another YSlow recommendation to speed things up. From there, we compress using gzip and then up the two versions. Looking at this code, there's probably a native PHP extension to handle the gzipping instead of exec'ing a shell command, but I haven't looked into it (yet).
 

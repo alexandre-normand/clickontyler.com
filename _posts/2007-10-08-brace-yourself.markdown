@@ -10,10 +10,12 @@ at work, we still have conflicting coding styles within the office. I fall
 squarely into the "braces are bad" camp. If an `if` statement
 doesn't require braces to work, then it shouldn't have them. For example
 
-    if(something)
-        do_this();
-    else
-        do_that();
+{% highlight c linenos %}
+if(something)
+    do_this();
+else
+    do_that();
+{% endhighlight %}
 
 To me, that's good lookin' code. Why add clutter where it's not needed? The
 argument I hear most often against this comes from

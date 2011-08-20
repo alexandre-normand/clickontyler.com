@@ -40,6 +40,8 @@ In any case, here's my analogous solution to the 50 States problem using PHP.
 (For obvious reasons, my code is nearly line by line identical to Anders'
 Python solution.)
 
+{% highlight php linenos %}
+<?PHP
     $states = array("alabama","alaska","arizona","arkansas","california","colorado",
         "connecticut","delaware","florida","georgia","hawaii","idaho",
         "illinois","indiana","iowa","kansas","kentucky","louisiana",
@@ -79,3 +81,4 @@ Python solution.)
     }
     
     echo "No pairs found\n";
+{% endhighlight %}

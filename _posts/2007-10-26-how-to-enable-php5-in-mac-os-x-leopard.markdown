@@ -9,13 +9,15 @@ I've seen a lot of visitors searching for information on enabling PHP5 in Mac
 OS X Leopard. It turns out to be quite easy. Leopard ships with Apache 2 and
 PHP 5 pre-installed. To enable PHP simply:
 
-  * Open your favorite text editor and edit `/private/etc/apache2/httpd.conf`
-  * Uncomment line number 114. It should read
+* Open your favorite text editor and edit `/private/etc/apache2/httpd.conf`
+* Uncomment line number 114. It should read
 
-    `LoadModule php5_module    libexec/apache2/libphp5.so`
+{% highlight bash linenos %}
+`LoadModule php5_module    libexec/apache2/libphp5.so`
+{% endhighlight %}
 
-  * Open System Preferences and go to Sharing
-  * Stop and then restart Web Sharing
+* Open System Preferences and go to Sharing
+* Stop and then restart Web Sharing
 
 That's it!
 

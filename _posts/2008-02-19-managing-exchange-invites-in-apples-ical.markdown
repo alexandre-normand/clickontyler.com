@@ -22,9 +22,9 @@ Exchange world a little bit better
 
 ### There are three problems we need to solve ###
 
-  1. Viewing a user's free/busy calendar
-  2. Easily adding Exchange invites to iCal
-  3. And accepting or declining those invites
+1. Viewing a user's free/busy calendar
+2. Easily adding Exchange invites to iCal
+3. And accepting or declining those invites
 
 My solution is a set of four Applescripts and a PHP script that (for me at
 least) make this nearly seamless. The bulk of the code is a PHP class called
@@ -58,6 +58,7 @@ I'm done.
 To move Exchange invites from Mail into iCal, I use this AppleScript. Warning:
 I'm hardly an AppleScript expert, so suggestions are very much welcome.
 
+{% highlight applescript linenos %}
     tell application "Mail"
         set theSelectedMessages to selection
         repeat with theMessage in theSelectedMessages
@@ -67,6 +68,7 @@ I'm hardly an AppleScript expert, so suggestions are very much welcome.
             do shell script "fn='/tmp/$RANDOM.ics';cat " & quoted form of POSIX path of theAttachmentFileName & "| grep -v METHOD:REQUEST > $fn;open $fn; rm " & quoted form of POSIX path of theAttachmentFileName & "; exit 0;"
         end repeat
     end tell
+{% endhighlight %}
 
 In a nutshell, that grabs the first attachment from the currently selected
 Mail message (I blindly assume it's an invite attachment), removes the line
@@ -86,6 +88,7 @@ event to the OWA PHP script which then marks the event as such in your public
 calendar. Here's the "Accept Invite" AppleScript. The other two are basically
 identical.
 
+{% highlight applescript linenos %}
     tell application "Mail"
         set theSelectedMessages to selection
         repeat with theMessage in theSelectedMessages
@@ -97,6 +100,7 @@ identical.
             do shell script "curl http://localhost/owa.php?accept=" & POSIX path of theFileName
         end repeat
     end tell
+{% endhighlight %}
 
 Again, I make no claims about the quality of my AppleScript - I just know that
 this works well enough to get the job done.
@@ -105,9 +109,9 @@ this works well enough to get the job done.
 
 And there you have it. To sum up:
 
-  1. [Download](http://tylerhall.googlecode.com/svn/trunk/outlook-web-access/) my scripts
-  2. Place owa.php into your local web root
-  3. Place the four Applescripts into `~/Library/Scripts/Applications/Mail`
+1. [Download](http://tylerhall.googlecode.com/svn/trunk/outlook-web-access/) my scripts
+2. Place owa.php into your local web root
+3. Place the four Applescripts into `~/Library/Scripts/Applications/Mail`
 
 After that, it's up to you to call those AppleScripts as needed. I use Red
 Sweater Software's [Fast Scripts](http://www.red-sweater.com/fastscripts/)

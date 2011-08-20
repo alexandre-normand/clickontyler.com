@@ -1,3 +1,3 @@
 markdown : maruku
-paginate : per_page
+pygments : true
 description : Tyler Hall is a three year Yahoo! veteran now doing Mac and iOS development full-time in Nashville. He's the author of VirtualHostX, Incoming!, Nottingham, and the Simple PHP Framework.

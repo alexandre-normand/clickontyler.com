@@ -13,13 +13,17 @@ I've written a command line tool which simplifies this process called [`s3up`](h
 
 The basic syntax:
 
-    s3up myS3bucket js/somefile.js somefile.js
+{% highlight bash linenos %}
+s3up myS3bucket js/somefile.js somefile.js
+{% endhighlight %}
 
 would upload a local JavaScript file named `somefile.js` into your Amazon S3 bucket named `myS3bucket` inside the `js` folder.
 
 We can build on this command by adding the `-x` flag, which tells `s3up` to set a far future expiration header. By default, it chooses a date ten years in the future:
 
-    s3up -x myS3bucket js/somefile.js somefile.js
+{% highlight bash linenos %}
+s3up -x myS3bucket js/somefile.js somefile.js
+{% endhighlight %}
 
 This lets the browser know to keep the file cached indefinitely.
 
@@ -29,13 +33,17 @@ Finally, the `-t` flag uploads and renames the file `filename.YYYYmmddHHmmss.ext
 
 Combining all three options we get:
 
-    s3up -txz myS3bucket js/somefile.js somefile.js
+{% highlight bash linenos %}
+s3up -txz myS3bucket js/somefile.js somefile.js
+{% endhighlight %}
 
 This uploads your file, compresses it, sets the correct expiration date, and versions the filename &mdash; all in one easy step.
 
 If you'd prefer to choose your own string for versioning, you can specify it with the `--version` flag:
 
-    s3up -txz --version=v2 myS3bucket js/somefile.js somefile.js
+{% highlight bash linenos %}
+s3up -txz --version=v2 myS3bucket js/somefile.js somefile.js
+{% endhighlight %}
 
 In that example, the file would be stored in S3 as `somefilev2.js`.
 
@@ -43,13 +51,17 @@ In that example, the file would be stored in S3 as `somefilev2.js`.
 
 If you'd like to take this a step further and integrate `s3up` into your existing deploy scripts, you can leave off the filename argument and instead pipe the data to upload via stdin. So, if you're using another tool like the [YUI Compressor](http://developer.yahoo.com/yui/compressor/) or [byuic](http://wiki.brilaps.com/wikka.php?wakka=byuic), you can run:
 
-    somecommand | s3up -txz myS3bucket js/somefile.js | pbcopy
+{% highlight bash linenos %}
+somecommand | s3up -txz myS3bucket js/somefile.js | pbcopy
+{% endhighlight %}
 
 ### Uploading Multiple Files ###
 
 A common task is uploading a whole folder of images. You can do this in one step by appending a slash (/) to the S3 filename and using wildcards to specify multiple local files. Example:
 
-    s3up myS3bucket images/ /path/to/your/images/*.jpg
+{% highlight bash linenos %}
+s3up myS3bucket images/ /path/to/your/images/*.jpg
+{% endhighlight %}
 
 When `s3up` sees `images/` ending with a slash, it treats it like a directory and stores all of your files into it. **Make sure you remember the slash** on `images/`. That's what triggers the special "directory" mode uploading.
 

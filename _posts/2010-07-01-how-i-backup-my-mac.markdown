@@ -29,7 +29,9 @@ First, in the event of a disaster or robbery, I have a backup stored elsewhere I
 
 Oh, and for those who are extra curious, I have the following cron job on my Mac:
 
-    00 05 * * * /usr/sbin/diskutil mount /dev/disk1s3
+{% highlight bash linenos %}
+00 05 * * * /usr/sbin/diskutil mount /dev/disk1s3
+{% endhighlight %}
 
 Because I don't like having my backup drive plugged into my system 24/7 (it slows down Open/Save dialogs whenever it has to spin up), I keep it unmounted. That cron script automatically mounts it every morning at 5am. When that happens, SuperDuper! automatically launches and performs a backup and unmounts the drive when finished.
 
