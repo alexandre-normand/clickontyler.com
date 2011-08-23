@@ -7,11 +7,11 @@ slug: commandq
 ---
 <img style="float:right;margin-left:1em;" src="http://cdn.tyler.fm/images/commandq-logo180.png">
 
-Ever hit ?Q and accidentally quit an application when you really meant to press ?W and close a window? It's a good way to lose your work and feel stupid at the same time. Luckily, there's now an app for that!
+Ever hit &#8984;Q and accidentally quit an application when you really meant to press &#8984;W and close a window? It's a good way to lose your work and feel stupid at the same time. Luckily, there's now an app for that!
 
 Introducing [CommandQ](http://clickontyler.com/commandq/)!
 
-CommandQ is a small app that sits in your menubar and catches your accidental ?Q's. It does this by showing an overlay with a timer that gives you a short period of time to let go before your app quits. Just keeping hold down ?Q if you're sure you really want to quit.
+CommandQ is a small app that sits in your menubar and catches your accidental &#8984;Q's. It does this by showing an overlay with a timer that gives you a short period of time to let go before your app quits. Just keeping hold down &#8984;Q if you're sure you really want to quit.
 
 CommandQ is smart, too. You can tell it to work with every app on your Mac or just a few specific ones.
 
