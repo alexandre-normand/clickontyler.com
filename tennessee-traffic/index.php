@@ -115,11 +115,11 @@
 	<!-- JavaScript -->
 	<script type="text/javascript" src="/mint/?js" ></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
-	<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
-	<script type="text/javascript" src="js/jquery.tabs.pack.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.pack.js"></script>
-	<script type="text/javascript" src="js/jquery.tipsy.js"></script>
-	<script type="text/javascript" src="js/onload.js"></script>
+	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.tabs.pack.js"></script>
+	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.validate.pack.js"></script>
+	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/onload.js"></script>
 </body>
 </html>
