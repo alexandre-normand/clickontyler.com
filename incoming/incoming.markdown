@@ -6,7 +6,7 @@ permalink: /index.html
 <div id="bd" class="product"> 
 	<div class="yui-gd band1"> 
 	    <div class="yui-u first center"> 
-			<img src="http://cdn.tyler.fm/images/incoming-logo180.png" width="180" height="180"> 
+			<img src="http://cdn.clickontyler.com/images/incoming-logo180.png" width="180" height="180"> 
 	    </div> 
 	    <div class="yui-u left"> 
 			<h2>Incoming!</h2> 
@@ -16,8 +16,8 @@ permalink: /index.html
 	    </div> 
 	</div> 
 	<div class="yui-g band2 center"> 
-		<a href="/incoming/download/"><img src="http://cdn.tyler.fm/images/download.png" width="273" height="59"></a> 
-		<a href="https://sites.fastspring.com/clickontyler/instant/incoming"><img src="http://cdn.tyler.fm/images/addtocart.png" width="273" height="59"></a> 
+		<a href="/incoming/download/"><img src="http://cdn.clickontyler.com/images/download.png" width="273" height="59"></a> 
+		<a href="https://sites.fastspring.com/clickontyler/instant/incoming"><img src="http://cdn.clickontyler.com/images/addtocart.png" width="273" height="59"></a> 
 	</div> 
 	<div class="yui-g band3"> 
 		<h3>Features</h3> 
@@ -31,10 +31,10 @@ permalink: /index.html
 	</div> 
 	<div class="yui-g band4"> 
 		<h3>Screen Shots</h3> 
-		<a href="http://cdn.tyler.fm/images/incoming-ss1.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss1-sm.jpg" width="115" height="82"></a> 
-		<a href="http://cdn.tyler.fm/images/incoming-ss2.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss2-sm.jpg" width="115" height="82"></a> 
-		<a href="http://cdn.tyler.fm/images/incoming-ss3.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss3-sm.jpg" width="115" height="82"></a> 
-		<a href="http://cdn.tyler.fm/images/incoming-ss4.png" class="fb"><img src="http://cdn.tyler.fm/images/incoming-ss4-sm.jpg" width="115" height="82"></a> 
+		<a href="http://cdn.clickontyler.com/images/incoming-ss1.png" class="fb"><img src="http://cdn.clickontyler.com/images/incoming-ss1-sm.jpg" width="115" height="82"></a> 
+		<a href="http://cdn.clickontyler.com/images/incoming-ss2.png" class="fb"><img src="http://cdn.clickontyler.com/images/incoming-ss2-sm.jpg" width="115" height="82"></a> 
+		<a href="http://cdn.clickontyler.com/images/incoming-ss3.png" class="fb"><img src="http://cdn.clickontyler.com/images/incoming-ss3-sm.jpg" width="115" height="82"></a> 
+		<a href="http://cdn.clickontyler.com/images/incoming-ss4.png" class="fb"><img src="http://cdn.clickontyler.com/images/incoming-ss4-sm.jpg" width="115" height="82"></a> 
 		<div id="requirements"> 
 			Requires Mac OS X 10.6 (Snow Leopard) or greater
 		</div> 

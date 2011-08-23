@@ -6,7 +6,7 @@ permalink: /contact/index.html
 <div class='contact' id='bd'> 
 	<div class='yui-gd band1'> 
 		<div class='yui-u first'> 
-			<img src='http://cdn.tyler.fm/images/hats.jpg' /> 
+			<img src='http://cdn.clickontyler.com/images/hats.jpg' /> 
 		</div> 
 		<div class='yui-u'> 
 			<p>I'm a software developer in Nashville which means I'm typically awake and online by 9am CST and up till at least 1am.

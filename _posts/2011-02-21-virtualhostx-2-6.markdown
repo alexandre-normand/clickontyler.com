@@ -17,4 +17,4 @@ Finally, I've added a new "Reveal" section to the "Web Server" menu. This lets y
 
 So that's all the changes in 2.6. As always, please feel free to [contact me](http://clickontyler.com/contact/) with any questions or feedback. And, for the sake of completeness, here's a screenshot showing VHX's new IP Address option and the mis-configuration error in the lower right corner of the window.
 
-![VirtualHostX 2.6 screenshot](http://cdn.tyler.fm/blog/vhx26.png)
+![VirtualHostX 2.6 screenshot](http://cdn.clickontyler.com/blog/vhx26.png)

@@ -11,7 +11,7 @@ My first idea was a documentation browser for Apple's Mac and iOS libraries. I'm
 
 This extension solves that problem by allowing you to type "ios" or "mac" followed by a keyword. It then presents and auto-completed dropdown of matching search results which take you directly to the relevant page on Apple's documentation site. Here's a screenshot after typing "ios UIImage"
 
-![Sample iOS Chrome Search](http://cdn.tyler.fm/blog/chrome-apple.png)
+![Sample iOS Chrome Search](http://cdn.clickontyler.com/blog/chrome-apple.png)
 
 For those among you wondering how I'm searching the Apple docs, I caught a lucky break. Apple's Mac and iOS [reference site](http://developer.apple.com/library/mac/navigation/) includes a small search box that autocompletes your queries. I tried sniffing the network traffic to see what web service they were using for suggestions (hoping to hook into that myself) but found they were showing search results without sending any data over the wire. A little more digging and I realized they were pre-fetching a dictionary of results as [a giant JSON file](http://developer.apple.com/library/mac/navigation/library.json) on page load. With that data &mdash; and a [sample Chrome extension](http://code.google.com/chrome/extensions/samples.html#omnibox) courtesy of Google &mdash; it took no time at all to connect all the pieces and get the extension working.
 

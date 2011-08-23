@@ -5,7 +5,7 @@ layout: post
 permalink: /blog/2011/08/commandq/index.html
 slug: commandq
 ---
-<img style="float:right;margin-left:1em;" src="http://cdn.tyler.fm/images/commandq-logo180.png">
+<img style="float:right;margin-left:1em;" src="http://cdn.clickontyler.com/images/commandq-logo180.png">
 
 Ever hit &#8984;Q and accidentally quit an application when you really meant to press &#8984;W and close a window? It's a good way to lose your work and feel stupid at the same time. Luckily, there's now an app for that!
 

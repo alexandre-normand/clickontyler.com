@@ -19,35 +19,35 @@ Make sense yet?
 
 1) The first thing you'll want to do after launching Highwire is to create yourself a Highwire account. This is just a simple online account that coordinates all of the data between copies of Highwire. <strong>Click the Register button to sign up.</strong>
 
-<img src="http://cdn.tyler.fm/blog/hwguide1.png">
+<img src="http://cdn.clickontyler.com/blog/hwguide1.png">
 
 2) Once you've signed in to Highwire, you're given two options. You can either <strong>Share</strong> or <strong>Connect</strong>. It works like this: First, you <strong>share</strong> your Mac at home. Then, when you're at work or at a coffee shop, you <strong>connect</strong> back to your home machine.
 
-<img src="http://cdn.tyler.fm/blog/hwguide2.png">
+<img src="http://cdn.clickontyler.com/blog/hwguide2.png">
 
 <h3>Sharing Your Home Mac</h3>
 
 To share your home Mac, just click on the <strong>Turn on Sharing</strong> button. It's that easy. Highwire should prompt you if it encounters any errors.
 
-Note: In order for Highwire to work, you'll need to have <strong><a href="http://cdn.tyler.fm/blog/hwguide3.png">Remote Login</a></strong> (also known as SSH) enabled on your Mac.
+Note: In order for Highwire to work, you'll need to have <strong><a href="http://cdn.clickontyler.com/blog/hwguide3.png">Remote Login</a></strong> (also known as SSH) enabled on your Mac.
 
 <h3>Connecting Back to your Home Mac</h3>
 
-Connecting back to your Home Mac is easy. Simply select your Mac from the list of available computers and click <strong>Connect</strong>. When prompted, enter your Mac's username and password. (<strong>Note:</strong> make sure you enter your Mac's <em><a href="http://cdn.tyler.fm/blog/highwire-short-username.png">short username</a></em>.) If all goes well, Highwire should be able to connect back to your Mac and begin sharing your services.
+Connecting back to your Home Mac is easy. Simply select your Mac from the list of available computers and click <strong>Connect</strong>. When prompted, enter your Mac's username and password. (<strong>Note:</strong> make sure you enter your Mac's <em><a href="http://cdn.clickontyler.com/blog/highwire-short-username.png">short username</a></em>.) If all goes well, Highwire should be able to connect back to your Mac and begin sharing your services.
 
-<img src="http://cdn.tyler.fm/blog/hwguide4.png">
+<img src="http://cdn.clickontyler.com/blog/hwguide4.png">
 
 <h3>How Do I Know if it Worked?</h3>
 
 Good question. The easiest way to test is using iTunes.
 
-1) On your Mac at <strong>home</strong>, start iTunes and <a href="http://cdn.tyler.fm/blog/hwguide5.png">make sure that network sharing is turned on</a>.
+1) On your Mac at <strong>home</strong>, start iTunes and <a href="http://cdn.clickontyler.com/blog/hwguide5.png">make sure that network sharing is turned on</a>.
 
 2) On your Mac at <strong>home</strong>, launch Highwire and begin sharing.
 
 3) On your other Mac at <strong>work or wherever</strong>, launch Highwire and connect back to your Home mac.
 
-4) Once connected, if you open iTunes on your <strong>work Mac</strong>, you should <a href="http://cdn.tyler.fm/blog/hwguide6.png">see your <strong>home</strong> music library shared and playable</a>.
+4) Once connected, if you open iTunes on your <strong>work Mac</strong>, you should <a href="http://cdn.clickontyler.com/blog/hwguide6.png">see your <strong>home</strong> music library shared and playable</a>.
 
 5) Tada! You're done!
 

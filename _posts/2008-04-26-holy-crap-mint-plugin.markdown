@@ -5,7 +5,7 @@ layout: post
 permalink: /blog/2008/04/holy-crap-mint-plugin/index.html
 slug: holy-crap-mint-plugin
 ---
-Here's a quick Pepper plugin called [_Holy Crap!_](http://cdn.tyler.fm/blog/HolyCrap.zip) I wrote for [Shaun Inman's Mint software](http://www.haveamint.com). The idea is simple: it sends you an email alert whenever it detects your site has become popular on del.icio.us, Digg, etc. Think of it as an early warning system.
+Here's a quick Pepper plugin called [_Holy Crap!_](http://cdn.clickontyler.com/blog/HolyCrap.zip) I wrote for [Shaun Inman's Mint software](http://www.haveamint.com). The idea is simple: it sends you an email alert whenever it detects your site has become popular on del.icio.us, Digg, etc. Think of it as an early warning system.
 
 It's easy to add your own warnings to the Pepper. Out of the box it looks for traffic coming from the popular site lists on
 

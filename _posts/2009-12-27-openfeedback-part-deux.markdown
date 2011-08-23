@@ -9,7 +9,7 @@ A <a href="http://clickontyler.com/blog/2008/06/introducing-appcaster-openfeedba
 
 The rewrite wasn't strictly necessary, but it certainly didn't hurt. The original code was hurried and in poor shape. I was able to cut the amount of code by 30% and give the dialog a more modern looking tab view.
 
-<a href="http://cdn.tyler.fm/blog/of-bug.png"><img alt="" src="http://cdn.tyler.fm/blog/of-bug-sm.png" title="OpenFeedback Screenshot" class="alignnone" width="320" height="296" /></a>
+<a href="http://cdn.clickontyler.com/blog/of-bug.png"><img alt="" src="http://cdn.clickontyler.com/blog/of-bug-sm.png" title="OpenFeedback Screenshot" class="alignnone" width="320" height="296" /></a>
 
 Like before, adding OpenFeedback to your application is trivial -- there's no code required. You simply link your app against the framework and hook-up the appropriate actions in Interface Builder. In under five minutes you can have an elegant way to encourage users to ask questions, submit bug reports, and suggest new features.
 

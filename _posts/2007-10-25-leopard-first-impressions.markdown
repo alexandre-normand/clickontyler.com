@@ -14,7 +14,7 @@ slug: leopard-first-impressions
     * `sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock`
     * `Enable PHP5 /private/etc/apache2/httpd.conf` (line 114)
     * `Add your vhosts to /private/etc/apache2/extra/httpd-vhosts.conf`
-  * Why does the [Finder sidebar](http://cdn.tyler.fm/blog/105home.png) use the traditional special folder icons when the actual folder icons are the ugly-cant-tell-them-apart-ones? (Can't wait for [Candybar](http://www.panic.com/candybar/) to start working.)
+  * Why does the [Finder sidebar](http://cdn.clickontyler.com/blog/105home.png) use the traditional special folder icons when the actual folder icons are the ugly-cant-tell-them-apart-ones? (Can't wait for [Candybar](http://www.panic.com/candybar/) to start working.)
   * When you look at the translucent menu bar by itself, it's sort of nice. But if there's a window pushed up against it the transparency really stands out and looks strange. It's not a good contrast.
   * I just used iChat's new screen sharing function to help a co-worker from across the room. Normally I have to get up and walk over there. Not any more!
   * What the crap?? Command-tabbing doesn't rotate back around when you reach the end of the application list. Wait. False alarm. It does - just not when you use the arrow keys to move through the list.

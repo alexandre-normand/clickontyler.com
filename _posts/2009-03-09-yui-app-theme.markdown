@@ -13,7 +13,7 @@ Usually when doing freelance work for clients, unless you're building on top of 
 
 It offers a tabbed layout with many of the common UI elements that web apps need. Content blocks, tabbed modules, one and two-column forms, error messages, etc. But most importantly it's built using YUI Grids so it's semantically structured, cross-browser, and easy to extend. You can radically alter the layout with just a few quick changes. Try clicking through the layout options on the [demo page](http://clickontyler.com/yui-app-theme/).
 
-[![YUI App Theme preview](http://cdn.tyler.fm/blog/yuiapp-ss4.20090308235541.png)](http://clickontyler.com/yui-app-theme/)
+[![YUI App Theme preview](http://cdn.clickontyler.com/blog/yuiapp-ss4.20090308235541.png)](http://clickontyler.com/yui-app-theme/)
 
 I've done my best to keep things logical and easy to use. Here's a quick example of how to use and extend the built-in content blocks.
 
@@ -32,7 +32,7 @@ A basic content block, or module, is created with the following markup
 
 You have a containing `div` with a class name of `block` surrounding two inner `divs`, which make up the head and body content of the block. In the browser you'll see
 
-![YUI App Theme content block preview](http://cdn.tyler.fm/blog/yuiapp-ss1.20090308235539.png)
+![YUI App Theme content block preview](http://cdn.clickontyler.com/blog/yuiapp-ss1.20090308235539.png)
 
 Content blocks resize to fit their surroundings. That means you can take the same markup used for a body content block and move it into a sidebar &mdash; the block will automatically shrink to fit the smaller space.
 
@@ -54,7 +54,7 @@ We can also extend the block to have a tabbed appearance. To do this, we just ne
 </div>
 {% endhighlight %}
 
-![YUI App Theme content block with tabs preview](http://cdn.tyler.fm/blog/yuiapp-ss2.20090308235540.png)
+![YUI App Theme content block with tabs preview](http://cdn.clickontyler.com/blog/yuiapp-ss2.20090308235540.png)
 
 Easy.
 
@@ -80,7 +80,7 @@ Let's take this example one step further and change the appearance of the tabs b
 
 And we get
 
-![YUI App Theme content block with separated tabs preview](http://cdn.tyler.fm/blog/yuiapp-ss3.20090308235540.png)
+![YUI App Theme content block with separated tabs preview](http://cdn.clickontyler.com/blog/yuiapp-ss3.20090308235540.png)
 
 It's that simple. With the right CSS, minor HTML edits can create powerful changes when rendered.
 

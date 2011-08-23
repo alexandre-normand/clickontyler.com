@@ -6,7 +6,7 @@ permalink: /upgrade/index.html
 <div id="bd" class="product">
 	<div class="yui-gd band1">
 	    <div class="yui-u first center">
-			<img src="http://cdn.tyler.fm/images/nottingham-logo180.png" width="180" height="180">
+			<img src="http://cdn.clickontyler.com/images/nottingham-logo180.png" width="180" height="180">
 	    </div>
 	    <div class="yui-u left">
 			<h2 style="font-size:300%">Nottingham 2 Upgrade</h2>

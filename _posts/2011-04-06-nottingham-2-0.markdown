@@ -7,7 +7,7 @@ slug: nottingham-2-0
 ---
 It may have taken a few months longer than expected, but today I'm happy to announce that [Nottingham 2.0](http://clickontyler.com/nottingham) is out of beta and now available.
 
-![Nottingham 2.0 Screenshot](http://cdn.tyler.fm/images/n2-ss1.png)
+![Nottingham 2.0 Screenshot](http://cdn.clickontyler.com/images/n2-ss1.png)
 
 I covered most of Nottingham's new features in January when I announced the first public [beta release](http://clickontyler.com/blog/2011/01/nottingham-2-0-public-preview/). But here's a recap...
 

@@ -38,7 +38,7 @@ The name Appcaster comes from the term "appcast" coined by [Andy Matuschak](http
 management function related to selling my app and distributing updates. Here's
 a screenshot of the home page after first logging in.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss11.thumbnail.png' title='ss1.png' alt='ss1.png' />](http://cdn.tyler.fm/blog/2007/09/ss11.png)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss11.thumbnail.png' title='ss1.png' alt='ss1.png' />](http://cdn.clickontyler.com/blog/2007/09/ss11.png)
 
 The first tab, Applications, displays a list of all the apps I'm managing.
 Obviously, for me, there's only my one program listed. It shows the newest
@@ -46,7 +46,7 @@ version, when it was released, a link to the download, and a link to the
 program's appcast feed. Clicking on the program's name we can edit its
 details.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss2.thumbnail.jpg' title='ss2.jpg' alt='ss2.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss2.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss2.thumbnail.jpg' title='ss2.jpg' alt='ss2.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss2.jpg)
 
 You can edit the app's name, give a description, and also choose whether or
 not the appcast feed it generates (more on those later) include an MD5
@@ -61,14 +61,14 @@ your files. Don't take my word for it. Read about [Panic's success with Coda](ht
 So, now that you've got your app's details filled in, it's time to upload a
 new version. Click the Versions tab and . . .
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss3.thumbnail.jpg' title='ss3.jpg' alt='ss3.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss3.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss3.thumbnail.jpg' title='ss3.jpg' alt='ss3.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss3.jpg)
 
 You get a listing of all the releases your app has gone through - the release
 date, download link, file size, and MD5 checksum (if applicable). Basically,
 this is the same information that will be used to generate your program's
 appcast feed. Let's release a new version.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss4.thumbnail.jpg' title='ss4.jpg' alt='ss4.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss4.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss4.thumbnail.jpg' title='ss4.jpg' alt='ss4.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss4.jpg)
 
 I like to make things as easy as possible - automation (however simple) turns
 me on. So, when you click the New Version tab, Appcaster automatically fills
@@ -110,12 +110,12 @@ emailed to my billing email address on GMail for backup purposes. Appcaster
 then generates the user's license file and emails it to them in a thank-you
 letter.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss5.thumbnail.jpg' title='ss5.jpg' alt='ss5.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss5.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss5.thumbnail.jpg' title='ss5.jpg' alt='ss5.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss5.jpg)
 
 Recent orders are displayed and clicking on a user's name takes you to their
 order details page with the raw PayPal output.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss6.thumbnail.jpg' title='ss6.jpg' alt='ss6.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss6.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss6.thumbnail.jpg' title='ss6.jpg' alt='ss6.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss6.jpg)
 
 Looking at the tabs above, I can click on Download License and download a copy
 of their license file. Likewise, Email License re-sends the thank you letter
@@ -123,18 +123,18 @@ containing their license they originally received when they ordered.
 
 In addition to managing existing orders, you can manually enter a new order.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss7.thumbnail.jpg' title='ss7.jpg' alt='ss7.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss7.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss7.thumbnail.jpg' title='ss7.jpg' alt='ss7.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss7.jpg)
 
 Moving on to Stats, since Appcaster creates your appcast feeds, it also
 receives the anonymous update data sent by [Sparkle Plus](http://code.google.com/p/sparkleplus/) every time a user checks for a
 new version.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss8.thumbnail.jpg' title='ss8.jpg' alt='ss8.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss8.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss8.thumbnail.jpg' title='ss8.jpg' alt='ss8.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss8.jpg)
 
 You can get an aggregate view of you users' system configurations, or you can
 drill down deeper and look at the raw Sparkle update data.
 
-[<img src='http://cdn.tyler.fm/blog/2007/09/ss9.thumbnail.jpg' title='ss9.jpg' alt='ss9.jpg' />](http://cdn.tyler.fm/blog/2007/09/ss9.jpg)
+[<img src='http://cdn.clickontyler.com/blog/2007/09/ss9.thumbnail.jpg' title='ss9.jpg' alt='ss9.jpg' />](http://cdn.clickontyler.com/blog/2007/09/ss9.jpg)
 
 It's important to remember that your program's stats don't stop with what you
 collect yourself. You need to keep an eye on what other people are saying,

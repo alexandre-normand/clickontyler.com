@@ -7,7 +7,7 @@ permalink: /store/index.html
 	<div class='yui-gd band1'> 
 		<h2>VirtualHostX</h2> 
 	    <div class='yui-u first left'> 
-			<a href='/virtualhostx/'><img src='http://cdn.tyler.fm/images/virtualhostx-band1.png' height='133' width='169' /></a> 
+			<a href='/virtualhostx/'><img src='http://cdn.clickontyler.com/images/virtualhostx-band1.png' height='133' width='169' /></a> 
 	    </div> 
 	    <div class='yui-u left'> 
 			<h3><a href='/virtualhostx/'>Create MAMP and Apache virtual hosts on your Mac</a></h3> 
@@ -18,7 +18,7 @@ permalink: /store/index.html
     <div class='yui-gd band1'> 
         <h2>Nottingham</h2> 
         <div class='yui-u first left'> 
-            <a href='/nottingham/'><img src='http://cdn.tyler.fm/images/nottingham-band1.png' height='133' width='169' /></a> 
+            <a href='/nottingham/'><img src='http://cdn.clickontyler.com/images/nottingham-band1.png' height='133' width='169' /></a> 
         </div> 
         <div class='yui-u left'> 
             <h3><a href='/nottingham/'>An elegant notepad for your Mac</a></h3> 
@@ -29,7 +29,7 @@ permalink: /store/index.html
 	<div class='yui-gd band1'> 
 		<h2>Incoming!</h2> 
 	    <div class='yui-u first left'> 
-			<a href='/incoming/'><img src='http://cdn.tyler.fm/images/incoming-band1.png' height='133' width='169' /></a> 
+			<a href='/incoming/'><img src='http://cdn.clickontyler.com/images/incoming-band1.png' height='133' width='169' /></a> 
 	    </div> 
 	    <div class='yui-u left'> 
 			<h3><a href='/incoming/'>The best way to search Twitter on your Mac</a></h3> 

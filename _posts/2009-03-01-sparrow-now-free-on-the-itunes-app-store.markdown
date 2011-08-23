@@ -5,7 +5,7 @@ layout: post
 permalink: /blog/2009/03/sparrow-now-free-on-the-itunes-app-store/index.html
 slug: sparrow-now-free-on-the-itunes-app-store
 ---
-In <img src="http://cdn.tyler.fm/blog/sparrowblogpic.png" style="float:right;" /> case you [missed it](http://twitter.com/fireeagle/status/1197766369), Sparrow, my [iPhone Fire Eagle updater](http://clickontyler.com/sparrow/), is now available for free on the App Store.
+In <img src="http://cdn.clickontyler.com/blog/sparrowblogpic.png" style="float:right;" /> case you [missed it](http://twitter.com/fireeagle/status/1197766369), Sparrow, my [iPhone Fire Eagle updater](http://clickontyler.com/sparrow/), is now available for free on the App Store.
 
 In addition to the much improved price, Sparrow now updates your Twitter profile with your _location name_ rather than your _coordinates_. So instead of something ugly like "37.321, -121.999", you'll get a much more attractive "1 Infinite Loop, Cupertino, CA".
 

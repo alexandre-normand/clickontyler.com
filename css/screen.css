@@ -10,7 +10,7 @@ html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pr
 #custom-doc{width:58.92em;*width:57.5em;min-width:766px;margin:auto;text-align:left;background-color:#2d2d2b;height:99.9%;}
 html, body{background-color:#121212;font-family:Verdana,'Bitstream Vera Sans', sans-serif;}
 #bg{width:766px;height:5000px;background-color:#2d2d2b;position:fixed;bottom:0;z-index:-1;}
-#hd{height:258px;background-image:url(http://cdn.tyler.fm/images/hd.png); }
+#hd{height:258px;background-image:url(http://cdn.clickontyler.com/images/hd.png); }
 #transbar{width:766px;height:12px;position:absolute;top:0;background-color:rgba(0, 0, 0, 0.5);}
 #hd h1 span{margin-left:-7000px;position:absolute;}
 #hd ul{margin-left:40px;}

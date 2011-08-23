@@ -7,7 +7,7 @@ slug: virtualhostx-2-0
 ---
 Today I'm thrilled to announce that [VirtualHostX 2.0](http://clickontyler.com/virtualhostx/) is available. It's been a long time coming (probably too long), but I'm glad it's now available for everyone to download. Aside from a new icon and a polished UI, VHX 2.0 offers many refinements and a few major improvements.
 
-![VirtualHostX Screenshot](http://cdn.tyler.fm/blog/blogss1.png)
+![VirtualHostX Screenshot](http://cdn.clickontyler.com/blog/blogss1.png)
 
 First on the list is Bonjour sharing of your virtual hosts. This means that your virtual hosts can be seen by other users on your local network. All they need is a Bonjour capable browser like Safari or Firefox (with the [BonjourFoxy](http://andrew.tj.id.au/projects/bonjourfoxy/) plugin).
 

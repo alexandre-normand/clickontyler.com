@@ -7,7 +7,7 @@ slug: commandq
 <div id="bd" class="product"> 
 	<div class="yui-gd band1"> 
 	    <div class="yui-u first center"> 
-			<img src="http://cdn.tyler.fm/images/commandq-logo180.png" width="180" height="180"> 
+			<img src="http://cdn.clickontyler.com/images/commandq-logo180.png" width="180" height="180"> 
 	    </div> 
 	    <div class="yui-u left"> 
 			<h2>CommandQ</h2> 
@@ -16,8 +16,8 @@ slug: commandq
 	    </div> 
 	</div> 
 	<div class="yui-g band2 center"> 
-		<a href="http://clickontyler.com/commandq/download/"><img src="http://cdn.tyler.fm/images/download.png" width="273" height="59"></a> 
-		<a href="http://clickontyler.com/commandq/purchase/"><img src="http://cdn.tyler.fm/images/addtocart.png" width="273" height="59"></a> 
+		<a href="http://clickontyler.com/commandq/download/"><img src="http://cdn.clickontyler.com/images/download.png" width="273" height="59"></a> 
+		<a href="http://clickontyler.com/commandq/purchase/"><img src="http://cdn.clickontyler.com/images/addtocart.png" width="273" height="59"></a> 
 	</div> 
 	<div class="yui-g band3"> 
 		<h3>Features</h3> 
@@ -29,7 +29,7 @@ slug: commandq
 	</div> 
 	<div class="yui-g band4"> 
 		<h3>Screen Shots</h3> 
-		<img src="http://cdn.tyler.fm/images/cq-ss1.png" width="442" height="462"><br><br> 
-		<img src="http://cdn.tyler.fm/images/cq-ss2.png" width="600" height="122"> 
+		<img src="http://cdn.clickontyler.com/images/cq-ss1.png" width="442" height="462"><br><br> 
+		<img src="http://cdn.clickontyler.com/images/cq-ss2.png" width="600" height="122"> 
     </div> 
 </div>

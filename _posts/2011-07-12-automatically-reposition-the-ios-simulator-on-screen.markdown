@@ -20,4 +20,4 @@ Where where {-864, 134} are the {X, Y} coordinates you'd like the simulator posi
 
 Save the script somewhere appropriate and select it as a new "Run" command in Xcode's "Run Starts" behavior.
 
-![Xcode Run Behavior](http://cdn.tyler.fm/blog/run-behavior.png)
+![Xcode Run Behavior](http://cdn.clickontyler.com/blog/run-behavior.png)
