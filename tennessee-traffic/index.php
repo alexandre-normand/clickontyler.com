@@ -113,7 +113,7 @@
 	
 
 	<!-- JavaScript -->
-	<script type="text/javascript" src="/mint/?js" ></script>
+	<script type="text/javascript" src="http://mint.clickontyler.com/?js" ></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.fancybox-1.3.4.pack.js"></script>
 	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.easing-1.3.pack.js"></script>
