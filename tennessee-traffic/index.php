@@ -10,8 +10,8 @@
 	<meta name="language" content="en" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="/favicon.ico" />
-	<link rel="stylesheet" type="text/css" media="screen, projection" href="http://cdn.clickontyler.com/tennessee-traffic/css/screen.css" />
-	<link rel="stylesheet" type="text/css" media="screen, projection" href="http://cdn.clickontyler.com/tennessee-traffic/css/jquery.fancybox-1.3.4.css" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/tennessee-traffic/css/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/tennessee-traffic/css/jquery.fancybox-1.3.4.css" />
 </head>
 	
 <body id="iphone">
@@ -22,15 +22,15 @@
 			<p>Tennessee Traffic is the best way to stay informed about the latest Tennessee traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.tdot.state.tn.us/">Tennessee Department of Transportation</a>. </p>
 			
 			<ul id="features">
-				<li><img src="http://cdn.clickontyler.com/tennessee-traffic/img/camera.png" alt="" /> <strong>Live Traffic Cameras</strong> Every traffic camera in Tennessee at your fingertips.</li>
-				<li><img src="http://cdn.clickontyler.com/tennessee-traffic/img/accident.png" alt="" /> <strong>Accident Reports</strong> Up-to-the-minute alerts of every reported acccident and wreck.</li>
-				<li><img src="http://cdn.clickontyler.com/tennessee-traffic/img/construction.png" alt="" /> <strong>Construction Zones</strong> Plan your commute to avoid the ever changing construction zones.</li>
-				<li><img src="http://cdn.clickontyler.com/tennessee-traffic/img/message.png" alt="" /> <strong>Push Notifications</strong> Get notified immediately whenever an <a href="http://www.tbi.tn.gov/amber_alert_photos/alert_amber_alert.shtml">Amber Alert</a> happens.</li>
+				<li><img src="{{ site.cdn_url }}/tennessee-traffic/img/camera.png" alt="" /> <strong>Live Traffic Cameras</strong> Every traffic camera in Tennessee at your fingertips.</li>
+				<li><img src="{{ site.cdn_url }}/tennessee-traffic/img/accident.png" alt="" /> <strong>Accident Reports</strong> Up-to-the-minute alerts of every reported acccident and wreck.</li>
+				<li><img src="{{ site.cdn_url }}/tennessee-traffic/img/construction.png" alt="" /> <strong>Construction Zones</strong> Plan your commute to avoid the ever changing construction zones.</li>
+				<li><img src="{{ site.cdn_url }}/tennessee-traffic/img/message.png" alt="" /> <strong>Push Notifications</strong> Get notified immediately whenever an <a href="http://www.tbi.tn.gov/amber_alert_photos/alert_amber_alert.shtml">Amber Alert</a> happens.</li>
 			</ul>
 			
 			<div id="phone">
 				<!-- image in the phone screen -->
-				<img src="http://cdn.clickontyler.com/tennessee-traffic/img/tt1-med.png" alt="" />
+				<img src="{{ site.cdn_url }}/tennessee-traffic/img/tt1-med.png" alt="" />
 			</div>
 		</div><!-- /intro-inner -->
 	</div><!-- /intro -->
@@ -46,7 +46,7 @@
 			<div id="tab-1">
 				<ul class="tour">
 					<li>
-						<img style="border:1px solid #999;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tour1.png" alt="" />
+						<img style="border:1px solid #999;" src="{{ site.cdn_url }}/tennessee-traffic/img/tour1.png" alt="" />
 						
 						<h2>Live Traffic Cameras</h2>
 						
@@ -54,7 +54,7 @@
 					</li>
 					
 					<li>
-						<img style="border:1px solid #999;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tour2.png" alt="" />
+						<img style="border:1px solid #999;" src="{{ site.cdn_url }}/tennessee-traffic/img/tour2.png" alt="" />
 
 						<h2>Accident Reports</h2>
 						
@@ -62,7 +62,7 @@
 					</li>
 
 					<li>
-						<img style="border:1px solid #999;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tour3.png" alt="" />
+						<img style="border:1px solid #999;" src="{{ site.cdn_url }}/tennessee-traffic/img/tour3.png" alt="" />
 
 						<h2>Rest Stops and Welcome Centers</h2>
 						
@@ -70,7 +70,7 @@
 					</li>
 					
 					<li>
-						<img style="border:1px solid #999;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tour4.png" alt="" />
+						<img style="border:1px solid #999;" src="{{ site.cdn_url }}/tennessee-traffic/img/tour4.png" alt="" />
 
 						<h2>Amber Alerts</h2>
 						
@@ -81,11 +81,11 @@
 			
 			<div id="tab-2">
 				<ul class="screenshots">
-					<li><a href="http://cdn.clickontyler.com/tennessee-traffic/img/tt1-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tt1-sm.png" alt="" /></a></li>
-					<li><a href="http://cdn.clickontyler.com/tennessee-traffic/img/tt2-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tt2-sm.png" alt="" /></a></li>
-					<li><a href="http://cdn.clickontyler.com/tennessee-traffic/img/tt3-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tt3-sm.png" alt="" /></a></li>
-					<li><a href="http://cdn.clickontyler.com/tennessee-traffic/img/tt4-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tt4-sm.png" alt="" /></a></li>
-					<li><a href="http://cdn.clickontyler.com/tennessee-traffic/img/tt5-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="http://cdn.clickontyler.com/tennessee-traffic/img/tt5-sm.png" alt="" /></a></li>
+					<li><a href="{{ site.cdn_url }}/tennessee-traffic/img/tt1-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="{{ site.cdn_url }}/tennessee-traffic/img/tt1-sm.png" alt="" /></a></li>
+					<li><a href="{{ site.cdn_url }}/tennessee-traffic/img/tt2-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="{{ site.cdn_url }}/tennessee-traffic/img/tt2-sm.png" alt="" /></a></li>
+					<li><a href="{{ site.cdn_url }}/tennessee-traffic/img/tt3-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="{{ site.cdn_url }}/tennessee-traffic/img/tt3-sm.png" alt="" /></a></li>
+					<li><a href="{{ site.cdn_url }}/tennessee-traffic/img/tt4-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="{{ site.cdn_url }}/tennessee-traffic/img/tt4-sm.png" alt="" /></a></li>
+					<li><a href="{{ site.cdn_url }}/tennessee-traffic/img/tt5-med.png" class="fancybox" rel="group1" title=""><img style="border:1px solid #666;" src="{{ site.cdn_url }}/tennessee-traffic/img/tt5-sm.png" alt="" /></a></li>
 				</ul>
 			</div><!-- /tab-2 -->
 			
@@ -115,11 +115,11 @@
 	<!-- JavaScript -->
 	<script type="text/javascript" src="http://mint.clickontyler.com/?js" ></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.fancybox-1.3.4.pack.js"></script>
-	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.easing-1.3.pack.js"></script>
-	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.tabs.pack.js"></script>
-	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.validate.pack.js"></script>
-	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/jquery.tipsy.js"></script>
-	<script type="text/javascript" src="http://cdn.clickontyler.com/tennessee-traffic/js/onload.js"></script>
+	<script type="text/javascript" src="{{ site.cdn_url }}/tennessee-traffic/js/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="{{ site.cdn_url }}/tennessee-traffic/js/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="{{ site.cdn_url }}/tennessee-traffic/js/jquery.tabs.pack.js"></script>
+	<script type="text/javascript" src="{{ site.cdn_url }}/tennessee-traffic/js/jquery.validate.pack.js"></script>
+	<script type="text/javascript" src="{{ site.cdn_url }}/tennessee-traffic/js/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="{{ site.cdn_url }}/tennessee-traffic/js/onload.js"></script>
 </body>
 </html>

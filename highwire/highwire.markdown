@@ -8,7 +8,7 @@ slug: highwire
 <div id="bd" class="product"> 
 	<div class="yui-gd band1"> 
 	    <div class="yui-u first center"> 
-			<img src="http://cdn.clickontyler.com/images/highwire-logo180.png" width="180" height="180"> 
+			<img src="{{ site.cdn_url }}/images/highwire-logo180.png" width="180" height="180"> 
 	    </div> 
 	    <div class="yui-u left"> 
 			<h2>Highwire</h2> 
@@ -18,7 +18,7 @@ slug: highwire
 	    </div> 
 	</div> 
 	<div class="yui-g band2 center"> 
-		<a href="/highwire/download/"><img src="http://cdn.clickontyler.com/images/download.png" width="273" height="59"></a> 
+		<a href="/highwire/download/"><img src="{{ site.cdn_url }}/images/download.png" width="273" height="59"></a> 
 	</div> 
 	<div class="yui-g band3"> 
 		<h3>Features</h3> 
@@ -32,11 +32,11 @@ slug: highwire
 	</div> 
 	<div class="yui-g band4"> 
 		<h3>Screen Shots</h3> 
-		<a href="http://cdn.clickontyler.com/images/highwire-ss1.png" class="fb"><img src="http://cdn.clickontyler.com/images/highwire-ss1-sm.png" width="125" height="125"></a> 
-		<a href="http://cdn.clickontyler.com/images/highwire-ss2.png" class="fb"><img src="http://cdn.clickontyler.com/images/highwire-ss2-sm.png" width="125" height="125"></a> 
-		<a href="http://cdn.clickontyler.com/video/highwire-itunes.mov"><img src="http://cdn.clickontyler.com/images/highwire-ss3-sm.png" width="119" height="109"></a> 
+		<a href="{{ site.cdn_url }}/images/highwire-ss1.png" class="fb"><img src="{{ site.cdn_url }}/images/highwire-ss1-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/highwire-ss2.png" class="fb"><img src="{{ site.cdn_url }}/images/highwire-ss2-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/video/highwire-itunes.mov"><img src="{{ site.cdn_url }}/images/highwire-ss3-sm.png" width="119" height="109"></a> 
 		<div id="requirements"> 
-			<img src="http://cdn.clickontyler.com/images/universal-binary.png" width="120" height="75"><br> 
+			<img src="{{ site.cdn_url }}/images/universal-binary.png" width="120" height="75"><br> 
 			Requires Mac OS X 10.5.8 (Leopard) or greater
 		</div> 
     </div> 

@@ -7,7 +7,7 @@ description: VirtualHostX is the best way to host multiple websites on your Mac.
 <div id="bd" class="product"> 
 	<div class="yui-gd band1"> 
 	    <div class="yui-u first center"> 
-			<img src="http://cdn.clickontyler.com/images/virtualhostx-logo180.png" width="180" height="180"> 
+			<img src="{{ site.cdn_url }}/images/virtualhostx-logo180.png" width="180" height="180"> 
 	    </div> 
 	    <div class="yui-u left"> 
 			<h2>VirtualHostX</h2> 
@@ -17,16 +17,16 @@ description: VirtualHostX is the best way to host multiple websites on your Mac.
 	    </div> 
 	</div> 
 	<div class="yui-g band2 center"> 
-		<a href="/virtualhostx/download/"><img src="http://cdn.clickontyler.com/images/download.png" width="273" height="59"></a> 
-		<a href="https://sites.fastspring.com/clickontyler/instant/virtualhostx"><img src="http://cdn.clickontyler.com/images/addtocart.png" width="273" height="59"></a> 
+		<a href="/virtualhostx/download/"><img src="{{ site.cdn_url }}/images/download.png" width="273" height="59"></a> 
+		<a href="https://sites.fastspring.com/clickontyler/instant/virtualhostx"><img src="{{ site.cdn_url }}/images/addtocart.png" width="273" height="59"></a> 
 	</div> 
 	<div class="yui-g band3"> 
 		<h3>Screen Shots</h3> 
-		<a href="http://cdn.clickontyler.com/images/vhx2-ss1.png" class="fb"><img src="http://cdn.clickontyler.com/images/vhx2-ss1-sm.png" width="125" height="125"></a> 
-		<a href="http://cdn.clickontyler.com/images/vhx2-ss2.png" class="fb"><img src="http://cdn.clickontyler.com/images/vhx2-ss2-sm.png" width="125" height="125"></a> 
-		<a href="http://cdn.clickontyler.com/images/vhx2-ss3.png" class="fb"><img src="http://cdn.clickontyler.com/images/vhx2-ss3-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/vhx2-ss1.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx2-ss1-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/vhx2-ss2.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx2-ss2-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/vhx2-ss3.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx2-ss3-sm.png" width="125" height="125"></a> 
 		<div id="requirements" style="float:right;"> 
-			<img src="http://cdn.clickontyler.com/images/universal-binary.png" width="120" height="75"><br> 
+			<img src="{{ site.cdn_url }}/images/universal-binary.png" width="120" height="75"><br> 
 			Requires Mac OS X 10.5.8 (Leopard) or greater.<br/><br/>Does not support Mac OS X Server edition.
 		</div> 
 	</div> 

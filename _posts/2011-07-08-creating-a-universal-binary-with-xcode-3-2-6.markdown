@@ -13,6 +13,6 @@ Regardless, now that the ([once famous](http://www.youtube.com/watch?v=kcfGsOKXO
 
 In your target's build settings, change "Architectures" to "Other…" and specify "ppc i386 x86_64".
 
-![Universal Binary Settings](http://cdn.clickontyler.com/blog/ubsettings.png)
+![Universal Binary Settings]({{ site.cdn_url }}/blog/ubsettings.png)
 
 _Note: It's entirely possible this whole episode was my fuck-up and not Xcode, but there are a bunch of similar reports online. So who knows? It certainly wasn't mentioned in the release notes._

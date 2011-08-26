@@ -17,7 +17,7 @@ Collectively, I'm calling the two projects **Appcaster** since they're designed 
 
 When I first built Appcaster last year, I wrote a [detailed overview of the application here](http://clickontyler.com/blog/2007/09/lessons-from-a-first-time-mac-developer/). Aside from cleaning up a few bugs and upgrading it to use the latest version of the [Simple PHP Framework](http://clickontyler.com/simple-php-framework/), the only major additions have been adding support for OpenFeedback and graphing user demographic data using the [Google Charts API](http://code.google.com/apis/chart/).
 
-<a href="http://cdn.clickontyler.com/blog/googlecharts.png" class="lightbox"><img src="http://cdn.clickontyler.com/blog/googlecharts-sm.png"/></a>
+<a href="{{ site.cdn_url }}/blog/googlecharts.png" class="lightbox"><img src="{{ site.cdn_url }}/blog/googlecharts-sm.png"/></a>
 
 Google's Chart API is such a slick, clever way of doing things that I couldn't pass by the opportunity to use it in a project. After aggregating your data, you simply craft it into a special URL and use that as the source of an `<img>` tag. Google parses your data out of the URL and returns a PNG formatted chart.
 
@@ -31,7 +31,7 @@ I thought their implementation was a great idea and emailed them to ask if I cou
 
 Adding OpenFeedback to your application is trivial. Like Sparkle, there's no code required. You simply link your app against the framework and hook-up the appropriate actions in Interface Builder. In under five minutes you can have an elegant way to encourage users to provide feedback.
 
-<a href="http://cdn.clickontyler.com/blog/of-window.png" class="lightbox"><img src="http://cdn.clickontyler.com/blog/of-window-sm.png"/></a>
+<a href="{{ site.cdn_url }}/blog/of-window.png" class="lightbox"><img src="{{ site.cdn_url }}/blog/of-window-sm.png"/></a>
 
 My long term goal is to see the Mac developer community standardize around OpenFeedback much like they have around Sparkle. Not only would it save time for developers, but it would provide users with a consistent interface for submitting feedback. That should help improve the dialogue between developers and our users &mdash; improving Mac software all around.
 

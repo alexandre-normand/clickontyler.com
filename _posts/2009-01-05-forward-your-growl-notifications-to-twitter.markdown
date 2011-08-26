@@ -19,9 +19,9 @@ So, I sat down and began looking through the source for [Growl's display plugin 
 
 ### How Does It Work ###
 
-Simple. [Download this Growl plugin](http://cdn.clickontyler.com/blog/Twitter.growlView.zip), unzip it, and double-click to install. You should then see a new style called "Twitter" under the "Display Options" in Growl.
+Simple. [Download this Growl plugin]({{ site.cdn_url }}/blog/Twitter.growlView.zip), unzip it, and double-click to install. You should then see a new style called "Twitter" under the "Display Options" in Growl.
 
-<a href="http://cdn.clickontyler.com/blog/growltwitter-ss1.png" class="lightbox"><img src="http://cdn.clickontyler.com/blog/growltwitter-ss1-sm.20090206234322.png"></a>
+<a href="{{ site.cdn_url }}/blog/growltwitter-ss1.png" class="lightbox"><img src="{{ site.cdn_url }}/blog/growltwitter-ss1-sm.20090206234322.png"></a>
 
 Just fill in your Twitter username and password. You can also choose a prefix that will be added to the front of each tweet (@username for example).
 
@@ -31,7 +31,7 @@ Growl is super customizable. You could set Twitter to be your default display st
 
 For example, I use my Mac Mini to download torrents using [Transmission](http://www.transmissionbt.com/), which supports Growl. I configured Growl to tweet whenever a download completes.
 
-<a href="http://cdn.clickontyler.com/blog/growltwitter-ss2.png" class="lightbox"><img src="http://cdn.clickontyler.com/blog/growltwitter-ss2-sm.20090206234429.png"></a>
+<a href="{{ site.cdn_url }}/blog/growltwitter-ss2.png" class="lightbox"><img src="{{ site.cdn_url }}/blog/growltwitter-ss2-sm.20090206234429.png"></a>
 
 My Mac at work does a full [SuperDuper](http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html) backup each night. I configured it to tweet whenever a backup _fails_.
 
@@ -51,4 +51,4 @@ Thanks to [Matt Gemmell](http://mattgemmell.com/) for [MGTwitterEngine](http://s
 
 ### Download ###
 
-Download [Growl Twitter](http://cdn.clickontyler.com/blog/Twitter.growlView.zip).
+Download [Growl Twitter]({{ site.cdn_url }}/blog/Twitter.growlView.zip).

@@ -29,11 +29,11 @@ Nope.
 
 Rather than posting new serials, CORE (that's one of the "teams" that release pirated software and serial numbers) simply put out "Click On Tyler MultiGen" &mdash; which was an actual app you can download to your Mac and use to create your own, working serial number for all of my products. Here's a screenshot:
 
-<img src="http://cdn.clickontyler.com/blog/core.png">
+<img src="{{ site.cdn_url }}/blog/core.png">
 
 (It even plays music.)
 
-So, with that out in the open (you can [download it here](http://cdn.clickontyler.com/blog/clicky.zip)), there was no point in banning serial numbers any longer.
+So, with that out in the open (you can [download it here]({{ site.cdn_url }}/blog/clicky.zip)), there was no point in banning serial numbers any longer.
 
 Instead, I turned my attention towards measuring the extent of the piracy. I wanted to establish a baseline of how many users were stealing my app, so I could then tell if any of my attempts to counteract it worked.
 
@@ -47,7 +47,7 @@ Fuck.
 
 My first attempt at converting pirates was appealing to their sense of right and wrong. (I'll pause while you finish laughing.) I released an update that popped up this error message when it detected you were using a fake serial number:
 
-<img src="http://cdn.clickontyler.com/blog/guilttrip1.png">
+<img src="{{ site.cdn_url }}/blog/guilttrip1.png">
 
 Two things worth noticing:
 
@@ -62,7 +62,7 @@ Over the next three months I saw a 4% decrease in the number of users pirating m
 
 At the beginning of this year I decided to be a bit more proactive and actually offer users a reason to pay other than simply "doing the right thing". So, I began showing this error message instead:
 
-<img src="http://cdn.clickontyler.com/blog/deal.png">
+<img src="{{ site.cdn_url }}/blog/deal.png">
 
 And I was serious. I presented the pirates with a choice. A one-time, limited offer that was only good right there and then. They could either click the "No thanks, I'd rather just keep pirating this software button" or they could be taken directly to my store's checkout page along with a hefty discount.
 
@@ -88,13 +88,13 @@ So, I toyed with different upgrade processes for a few weeks and finally settled
 
 The first time the user launches VirtualHostX after getting the automatic upgrade to 2.7, they're shown this window:
 
-<img src="http://cdn.clickontyler.com/blog/vhx27step1.png">
+<img src="{{ site.cdn_url }}/blog/vhx27step1.png">
 
 I explained the situation as plainly as possible while also being upfront with the understanding that this is an inconvenience for them, not me, and the requisite apology. I also made it simple &mdash; one button to click &mdash; no other steps.
 
 So, click the button, wait about five seconds and:
 
-<img src="http://cdn.clickontyler.com/blog/vhx27step2.png">
+<img src="{{ site.cdn_url }}/blog/vhx27step2.png">
 
 The app automatically connects to my server, validates their old serial number, generates a new one, and registers the app without any other user intervention. It's all automatic.
 

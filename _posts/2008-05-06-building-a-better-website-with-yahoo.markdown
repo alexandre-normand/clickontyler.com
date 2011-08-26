@@ -26,7 +26,7 @@ At OSCON last summer, I attended one of the first talks [Steve Souders](http://s
 
 As usual, I coded everything by hand, paying attention to all the typical SEO rules that I learned at Sitening. Once the initial design was complete and I had a working home page, I ran YSlow.
 
-<a href="http://cdn.clickontyler.com/blog/yslow-before.png" class="lightbox"><img src="http://cdn.clickontyler.com/blog/yslow-before-sm.png" alt="YSlow Before"/></a>
+<a href="{{ site.cdn_url }}/blog/yslow-before.png" class="lightbox"><img src="{{ site.cdn_url }}/blog/yslow-before-sm.png" alt="YSlow Before"/></a>
 
 Ouch. A failing 56 out of 100. What did YSlow suggest I improve? And how did I fix it?
 
@@ -38,7 +38,7 @@ Ouch. A failing 56 out of 100. What did YSlow suggest I improve? And how did I f
 
 So, all of the changes above took about three hours to implement. Most of that time was spent writing my S3 deploy script and figuring out how to make Amazon serve gzipped content. Was it worth it? See for yourself.
 
-<a href="http://cdn.clickontyler.com/blog/yslow-after.png" class="lightbox"><img src="http://cdn.clickontyler.com/blog/yslow-after-sm.png" alt="YSlow Before"/></a>
+<a href="{{ site.cdn_url }}/blog/yslow-after.png" class="lightbox"><img src="{{ site.cdn_url }}/blog/yslow-after-sm.png" alt="YSlow Before"/></a>
 
 Wow. Three short hours of work and I jumped to a near perfect 96 out of 100. The only remaining penalty is from not serving an expires header on my [Mint](http://haveamint.com) JavaScript.
 

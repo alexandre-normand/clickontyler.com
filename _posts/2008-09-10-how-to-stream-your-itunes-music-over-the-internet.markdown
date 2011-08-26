@@ -15,7 +15,7 @@ First off, you'll need a Mac at home with iTunes open that is always connected t
 
 Then, poke a hole in your router's firewall to that machine on TCP port 3689. Here's a screenshot of my router's settings:
 
-<a href="http://cdn.clickontyler.com/blog/setupasst.png" class="lightbox"><img src="http://cdn.clickontyler.com/blog/setupasst-sm.20090206234712.png"/></a>
+<a href="{{ site.cdn_url }}/blog/setupasst.png" class="lightbox"><img src="{{ site.cdn_url }}/blog/setupasst-sm.20090206234712.png"/></a>
 
 (Note: your computer's IP address might be different than mine.)
 
@@ -45,4 +45,4 @@ Or, if you're feeling adventurous, you could wrap the whole thing inside a simpl
 
 ### Downloading mDNSProxyResponderPosix ###
 
-Here's a binary download of the [mDNSProxyResponderPosix](http://cdn.clickontyler.com/blog/mDNSProxyResponderPosix) command for Intel. Place it somewhere in your path. And here's [the source](http://www.opensource.apple.com/projects/rendezvous/source/Rendezvous.tar.gz) if you'd like to compile it yourself for PowerPC.
+Here's a binary download of the [mDNSProxyResponderPosix]({{ site.cdn_url }}/blog/mDNSProxyResponderPosix) command for Intel. Place it somewhere in your path. And here's [the source](http://www.opensource.apple.com/projects/rendezvous/source/Rendezvous.tar.gz) if you'd like to compile it yourself for PowerPC.

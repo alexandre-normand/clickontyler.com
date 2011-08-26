@@ -15,7 +15,7 @@ OmniFocus helps keep me sane. Here's how.
 
 ### Three Buckets ###
 
-<img src="http://cdn.clickontyler.com/blog/of-projects.png" style="float:right;">
+<img src="{{ site.cdn_url }}/blog/of-projects.png" style="float:right;">
 
 All of the tasks I do throughout my day fit into one of three buckets. Some people call these "categories" or "areas of responsibility". OmniFocus represents them as folders.
 
@@ -53,7 +53,7 @@ With my email processed and new tasks delivered to OmniFocus, I can turn to what
 
 OmniFocus has the notion of Perspectives. These are saved settings that you can switch between with a single click. When deciding on the day's work, I switch to the Due perspective. This gives me an instant look at all the tasks that are overdue or need to be completed in the next day or so.
 
-<img src="http://cdn.clickontyler.com/blog/of-due.png">
+<img src="{{ site.cdn_url }}/blog/of-due.png">
 
 I've customized OmniFocus's built-in Due perspective to group my tasks by context. This gives me a clear division between what I have to do for Yahoo! and everything else. That's important to me because, after all, Yahoo! pays the bills and those tasks take priority over most of my other commitments.
 
@@ -63,14 +63,14 @@ With a clear mind, it's easy to get started and fully concentrate on the work at
 
 But OmniFocus's Due perspective is just the beginning. Here's my toolbar with the perspectives I flip between most frequently.
 
-<img src="http://cdn.clickontyler.com/blog/of-toolbar2.png">
+<img src="{{ site.cdn_url }}/blog/of-toolbar2.png">
 
 There are four perspectives on the right that I've created.
 
  * Y! Available - Shows all of the work related tasks that I can choose from to do. This is more powerful than it might initially seem. Because OmniFocus lets you make certain tasks dependent on others &mdash; Task A has to be completed before Task B &mdash; you only see those items you can actually do. It filters out everything else so you don't get distracted when picking what's next.
  * Y! Next - This is similar to the Available view, except it further refines the tasks it displays. Rather than showing everything you can do, it simply gives you the next item available in each project. This is great when you're in the zone, cranking through your work, and trying to stay focused.
  * People - I love this view. It generates a list of all the items that I'm waiting for other people to finish. Here's a screenshot:  
-<img src="http://cdn.clickontyler.com/blog/of-people2.png">  
+<img src="{{ site.cdn_url }}/blog/of-people2.png">  
 I accomplish this by creating a context with the name of each person that owes me something. Then, whenever I need to delegate a task, I just assign it a context of that person's name and forget about it.  
   
   Two tricks that make this work well:  

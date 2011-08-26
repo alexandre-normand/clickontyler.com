@@ -68,7 +68,7 @@ In the master config file on my website, I set a variable called `$gz` like so:
 That snippet detects if the user's browser supports gzip encoding and sets the variable appropriately. Then, throughout the site, I link to all of my JavaScript and CSS files like this:
 
 {% highlight html linenos %}
-    <link rel="stylesheet" href="http://cdn.clickontyler.com/css/main.<?PHP echo $gz;?>css" type="text/css">
+    <link rel="stylesheet" href="{{ site.cdn_url }}/css/main.<?PHP echo $gz;?>css" type="text/css">
 {% endhighlight %}
 
 That way, if the `$gz` variable is set, it adds a "gz." to the filename. Otherwise, the filename doesn't change. It's a quick way to transparently give the right file to the browser.

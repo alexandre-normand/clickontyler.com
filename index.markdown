@@ -6,15 +6,15 @@ layout: default
 	<div class="yui-gb band1"> 
 		<h2>Mac Apps</h2>
         <div class="yui-u first center"> 
-			<a href="/virtualhostx/"><img src="http://cdn.clickontyler.com/images/virtualhostx-band1.png" class="nudgeme" width="169" height="133"></a> 
+			<a href="/virtualhostx/"><img src="{{ site.cdn_url }}/images/virtualhostx-band1.png" class="nudgeme" width="169" height="133"></a> 
 			<p class="center"><a href="/virtualhostx/">VirtualHostX</a></p> 
 	    </div> 
         <div class="yui-u center"> 
-			<a href="/incoming/"><img src="http://cdn.clickontyler.com/images/incoming-band1.png" class="nudgeme" width="169" height="133"></a> 
+			<a href="/incoming/"><img src="{{ site.cdn_url }}/images/incoming-band1.png" class="nudgeme" width="169" height="133"></a> 
 			<p class="center"><a href="/incoming/">Incoming!</a></p> 
 	    </div> 
         <div class="yui-u center"> 
-            <a href="/nottingham/"><img src="http://cdn.clickontyler.com/images/nottingham-band1.png" class="nudgeme" width="169" height="133"></a> 
+            <a href="/nottingham/"><img src="{{ site.cdn_url }}/images/nottingham-band1.png" class="nudgeme" width="169" height="133"></a> 
             <p class="center"><a href="/nottingham/">Nottingham</a></p> 
         </div>
 	</div> 
@@ -30,7 +30,7 @@ layout: default
 	</div> 
 
 	<div class="yui-g band3"> 
-		<h2>Recent Blog Posts <a href="http://feeds.feedburner.com/clickontyler"><img src="http://cdn.clickontyler.com/images/feed-icon-14x14.png" width="14" height="14"></a></h2> 
+		<h2>Recent Blog Posts <a href="http://feeds.feedburner.com/clickontyler"><img src="{{ site.cdn_url }}/images/feed-icon-14x14.png" width="14" height="14"></a></h2> 
 	</div> 
 	
 	<div class="yui-gb band4">

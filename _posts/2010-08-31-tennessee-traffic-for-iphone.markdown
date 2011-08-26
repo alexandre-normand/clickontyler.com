@@ -19,9 +19,9 @@ All this info is displayed on an easy-to-use map that automatically zooms in to 
 
 I've already found the app incredibly useful a number of times &mdash; and my friends (biased as they may be) have, too. You can [download your copy](http://clickontyler.com/tennessee-traffic/itunes/) from the iTunes App Store.
 
-![Tennessee Traffic Map](http://cdn.clickontyler.com/blog/tt6-med.png)
-![Tennessee Traffic Camera](http://cdn.clickontyler.com/blog/tt2-med.png)
-![Tennessee Traffic Settings](http://cdn.clickontyler.com/blog/tt3-med.png)
-![Tennessee Traffic List of Accidents](http://cdn.clickontyler.com/blog/tt4-med.png)
-![Tennessee Traffic Details](http://cdn.clickontyler.com/blog/tt5-med.png)
-![Tennessee Traffic Map](http://cdn.clickontyler.com/blog/tt1-med.png)
+![Tennessee Traffic Map]({{ site.cdn_url }}/blog/tt6-med.png)
+![Tennessee Traffic Camera]({{ site.cdn_url }}/blog/tt2-med.png)
+![Tennessee Traffic Settings]({{ site.cdn_url }}/blog/tt3-med.png)
+![Tennessee Traffic List of Accidents]({{ site.cdn_url }}/blog/tt4-med.png)
+![Tennessee Traffic Details]({{ site.cdn_url }}/blog/tt5-med.png)
+![Tennessee Traffic Map]({{ site.cdn_url }}/blog/tt1-med.png)

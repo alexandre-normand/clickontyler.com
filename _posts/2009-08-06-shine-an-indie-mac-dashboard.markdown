@@ -11,7 +11,7 @@ Today I'm happy to officially announce [Shine](http://github.com/tylerhall/Shine
 
 I chose the name Shine because, at it's heart, it's a complimentary product to Andy Matuschak's [Sparkle](http://sparkle.andymatuschak.org/) project. (Inevitable tagline: Your app already Sparkles, now make it Shine.) The core functionality, like Appcaster before it, is to automatically generate appcast feeds for your product updates. But it does a whole lot more, too.
 
-![Shine Screenshot](http://cdn.clickontyler.com/blog/shine-ss1.png)
+![Shine Screenshot]({{ site.cdn_url }}/blog/shine-ss1.png)
 
 Shine handles order processing using [PayPal's IPN service](https://www.paypal.com/ipn). That includes generating the license information (using either [Aquatic Prime](http://www.aquaticmac.com/) or your own, custom scheme), emailing it to the user, and managing the database of orders. It also computes aggregate stats based on your users' Sparkle update requests, collects user feedback (bug reports, feature requests, questions), and automatically [stores your application updates in Amazon S3](http://www.cabel.name/2007/04/coda-one-week-later.html).
 

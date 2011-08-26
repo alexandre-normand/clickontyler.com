@@ -19,7 +19,7 @@ picked up). Until I get this feature working, it's easy to restart the server
 yourself. Just go to System Preferences &rarr; Sharing and then uncheck and
 check "Web Sharing". Here's a screen shot
 
-[<img src="http://cdn.clickontyler.com/blog/leopard-sm.png"/>](http://cdn.clickontyler.com/blog/leopard.png)
+[<img src="{{ site.cdn_url }}/blog/leopard-sm.png"/>]({{ site.cdn_url }}/blog/leopard.png)
 
 Thanks for your patience, everyone.
 

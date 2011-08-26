@@ -5,7 +5,7 @@ layout: post
 permalink: /blog/2010/11/sosumi-for-mac-find-your-iphone-from-your-deskop/index.html
 slug: sosumi-for-mac-find-your-iphone-from-your-deskop
 ---
-Every <img src="http://cdn.clickontyler.com/images/sosumi-icon.png" style="float:right;"> holiday, between the food and family, I always seem to find time for a quick project. Last year I built the first version of [Nottingham](http://clickontyler.com/nottingham/) over the Thanksgiving break. This year was no exception, and I found myself putting the final touches on [Sosumi for Mac](http://clickontyler.com/sosumi/) after an eighteen hour coding streak this weekend.
+Every <img src="{{ site.cdn_url }}/images/sosumi-icon.png" style="float:right;"> holiday, between the food and family, I always seem to find time for a quick project. Last year I built the first version of [Nottingham](http://clickontyler.com/nottingham/) over the Thanksgiving break. This year was no exception, and I found myself putting the final touches on [Sosumi for Mac](http://clickontyler.com/sosumi/) after an eighteen hour coding streak this weekend.
 
 Sosumi for Mac builds on the original [Sosumi project](https://github.com/tylerhall/sosumi) I started last Summer &mdash; a PHP script that returned the location of your iPhone by scraping MobileMe's website and that eventually evolved to use Apple's "official" API once that was released.
 
@@ -17,4 +17,4 @@ Admittedly, this kind of always-on location tracking can certainly be creepy. Bu
 
 [Download Sosumi](http://clickontyler.com/sosumi/download/), [read more](http://clickontyler.com/sosumi/) about it, or [grab the source on Github](https://github.com/tylerhall/MacSosumi) and build something even cooler.
 
-![http://cdn.clickontyler.com/images/sosumi-ss1.png](http://cdn.clickontyler.com/images/sosumi-ss1.png)
+![{{ site.cdn_url }}/images/sosumi-ss1.png]({{ site.cdn_url }}/images/sosumi-ss1.png)

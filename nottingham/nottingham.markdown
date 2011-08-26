@@ -6,7 +6,7 @@ permalink: /index.html
 <div id="bd" class="product"> 
 	<div class="yui-gd band1"> 
 	    <div class="yui-u first center"> 
-			<img src="http://cdn.clickontyler.com/images/nottingham-logo180.png" width="180" height="180"> 
+			<img src="{{ site.cdn_url }}/images/nottingham-logo180.png" width="180" height="180"> 
 	    </div> 
 	    <div class="yui-u left"> 
 			<h2>Nottingham 2</h2> 
@@ -16,8 +16,8 @@ permalink: /index.html
 	    </div> 
 	</div> 
 	<div class="yui-g band2 center"> 
-		<a href="http://clickontyler.com/nottingham/download/"><img src="http://cdn.clickontyler.com/images/download.png" width="273" height="59"></a> 
-		<a href="http://clickontyler.com/nottingham/purchase/"><img src="http://cdn.clickontyler.com/images/addtocart.png" width="273" height="59"></a> 
+		<a href="http://clickontyler.com/nottingham/download/"><img src="{{ site.cdn_url }}/images/download.png" width="273" height="59"></a> 
+		<a href="http://clickontyler.com/nottingham/purchase/"><img src="{{ site.cdn_url }}/images/addtocart.png" width="273" height="59"></a> 
 		<p>Existing Nottingham users may <a href="/nottingham/upgrade/">upgrade to 2.0 here</a>.</p> 
 	</div> 
 	<div class="yui-g band3"> 
@@ -35,7 +35,7 @@ permalink: /index.html
 	</div> 
 	<div class="yui-g band4"> 
 		<h3>Screen Shots</h3> 
-		<img src="http://cdn.clickontyler.com/images/n2-ss1.png" width="622" height="570"> 
-		<img src="http://cdn.clickontyler.com/images/n2-ss2.png" width="448" height="530"> 
+		<img src="{{ site.cdn_url }}/images/n2-ss1.png" width="622" height="570"> 
+		<img src="{{ site.cdn_url }}/images/n2-ss2.png" width="448" height="530"> 
     </div>
 </div>
