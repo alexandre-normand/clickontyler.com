@@ -1,4 +1,8 @@
 <?PHP
+	// This script crawls a directory of files (recursively) and then searches
+	// My Jekyll posts to see if they're still in use. The idea being to let me
+	// cleanup a three year old S3 bucket. /RTH 2011-08-28
+
 	function dir_tree($dir) {
 	   $path = '';
 	   $stack[] = $dir;

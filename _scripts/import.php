@@ -1,4 +1,9 @@
 <?PHP
+	// This is the script I used to export my old blog out of WordPress and into a
+	// Jekyll friendly format. The first half exports posts, the second does pages.
+	// It's fairly specific to my needs, but maybe it'll be a good starting point
+	// for you. /RTH 2011-08-28
+
 	// https://twitter.com/#!/marcoarment/status/59089853433921537
 	date_default_timezone_set('America/Los_Angeles');
 
@@ -59,6 +64,8 @@
 
 		$out  = "---\n";
 
+		// I already had these custom post fields defined in my WP install.
+		// These won't be here for standard WP setups...
 		if($p['title_tag'] && strlen($p['title_tag']))
 			$out .= "title: {$p['title_tag']}\n";
 		else
