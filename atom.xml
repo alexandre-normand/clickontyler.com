@@ -14,17 +14,17 @@ layout: nil
     <email>tylerhall@gmail.com</email>
   </author>
 
-  {% for post in site.posts %}
+  {% for i in (0..10) %}
   <entry>
-    <id>http://clickontyler.com{{ post.id }}</id>
+    <id>http://clickontyler.com{{ site.posts[i].id }}</id>
     <link type="text/html" rel="alternate" href="http://clickontyler.com{{ post.url }}"/>
-    <title>{{ post.title }}</title>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <title>{{ site.posts[i].title }}</title>
+    <updated>{{ site.posts[i].date | date_to_xmlschema }}</updated>
     <author>
       <name>Tyler Hall</name>
       <uri>http://clickontyler.com/</uri>
     </author>
-    <content type="html">{{ post.content | xml_escape }}</content>
+    <content type="html">{{ site.posts[i].content | xml_escape }}</content>
   </entry>
   {% endfor %}
  
