@@ -13,14 +13,14 @@ layout: nil
 	<meta name="language" content="en" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="/favicon.ico" />
-	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/tennessee-traffic/css/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/tennessee-traffic/css/screen3.css" />
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/tennessee-traffic/css/jquery.fancybox-1.3.4.css" />
 </head>
 	
 <body id="iphone">
 	<div id="intro">
 		<div id="intro-inner" class="clearfix">
-			<h1 id="logo">Tennessee Traffic <small>Stay Informed While On The Go</small></h1>
+			<h1 id="logo">Tennessee Traffic Advisor<small>State-wide Traffic Conditions on your iPhone</small></h1>
 			
 			<p>Tennessee Traffic is the best way to stay informed about the latest Tennessee traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.tdot.state.tn.us/">Tennessee Department of Transportation</a>. </p>
 			

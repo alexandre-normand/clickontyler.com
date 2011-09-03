@@ -37,7 +37,7 @@ img, form fieldset {border:none;}
 02. INTRO  -------------------------------------*/
 
 /* logo and intro paragraph */
-h1#logo {text-indent:-9999px;background:url(../img/bg/logo.png);width:500px;height:80px; background-repeat:no-repeat;}
+h1#logo {text-indent:-9999px;background:url(../img/bg/logoGA.png);width:500px;height:80px; background-repeat:no-repeat;}
 #intro-inner p {font-size:15px;width:580px;margin-top:10px;}
 #intro-inner a { color:#9ea4a9;}
 

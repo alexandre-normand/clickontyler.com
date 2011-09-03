@@ -7,6 +7,9 @@ layout: default
 			<h2><a href="http://clickontyler.com{{ page.permalink | replace:'index.html','' }}" rel="bookmark" title="Permanent Link to {{ page.title }}">{{ page.title }}</a></h2>
 			<p class="dt">{{ page.date | date: "%A, %B %d, %Y" }}</p>
 			<div class="entry">
+				{% if page.image %}
+				<img src="{{ page.image }}" style="float:right; margin:auto auto 1em 1em;" />
+				{% endif %}
 				{{ content }}
 			</div>
 		</div>
