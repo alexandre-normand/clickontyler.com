@@ -1,3 +1,6 @@
+---
+permalink: /.htaccess
+---
 Redirect 301 /easyschmooze http://clickontyler.com/schmooze-tv
 Redirect 301 /easyschmooze.php http://clickontyler.com/schmooze-tv
 Redirect 301 /appcaster http://clickontyler.com/blog/2008/06/introducing-appcaster-openfeedback
@@ -11,7 +14,7 @@ RewriteEngine On
 
 # Remove www
 RewriteCond %{HTTP_HOST} ^www\.clickontyler\.com$
-RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
+RewriteRule ^(.*)$ http://clickontyler.com/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^clickonideas\.com$
 RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
