@@ -46,9 +46,7 @@ permalink: /do-upgrade.php
 
 				$db->query("UPDATE shine_orders SET upgrade_coupon = '' WHERE app_id = '3' AND payer_email = '$email'");
 			}
-		}
-
-		if(strlen($row['upgrade_coupon']) > 0)
+		} else if(strlen($row['upgrade_coupon']) > 0)
 		{
 			$url = "https://sites.fastspring.com/clickontyler/instant/virtualhostx?coupon=" . $row['upgrade_coupon'];
 			redirect($url);
@@ -65,7 +63,7 @@ permalink: /do-upgrade.php
 			<img src='{{ site.cdn_url }}/images/hats.jpg' /> 
 		</div> 
 		<div class='yui-u'>
-			<h2>Nottingham 3.0 Upgrade</h2>
+			<h2>VirtualHostX 3.0 Upgrade</h2>
 			<?PHP echo $out; ?>
 		</div> 
 	</div> 

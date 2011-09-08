@@ -12,7 +12,7 @@ permalink: /store/index.html
 	    <div class='yui-u left'> 
 			<h3><a href='/virtualhostx/'>Create MAMP and Apache virtual hosts on your Mac</a></h3> 
 			<p>The easiest way to host multiple websites on your Mac. It's the perfect solution for web designers working on more than one project at a time. Setup virtual hosts with just a few clicks and get on with your work.</p> 
-			<p><a href='https://sites.fastspring.com/clickontyler/instant/virtualhostx'>Purchase Now</a> for $24.95</p> 
+			<p><a href='https://sites.fastspring.com/clickontyler/instant/virtualhostx'>Purchase Now</a> for $34.95</p>
 	    </div> 
 	</div> 
     <div class='yui-gd band1'> 
@@ -35,6 +35,17 @@ permalink: /store/index.html
 			<h3><a href='/incoming/'>The best way to search Twitter on your Mac</a></h3> 
 			<p>Designed for power users and social media experts, it cuts through the noise to find the tweets that matter most &mdash; follow your favorite topics or keep track of what's being said about you and your company's products.</p> 
 			<p><a href='https://sites.fastspring.com/clickontyler/instant/incoming'>Purchase Now</a> for $24.95</p> 
+	    </div> 
+	</div>
+	<div class='yui-gd band1'> 
+		<h2>CommandQ</h2> 
+	    <div class='yui-u first left'> 
+			<a href='/commandq/'><img src='{{ site.cdn_url }}/images/commandq-band1.png' height='133' width='169' /></a> 
+	    </div> 
+	    <div class='yui-u left'> 
+			<h3><a href='/commandq/'>Never accidentally quit an app again</a></h3> 
+			<p>Have you ever accidentally hit ⌘Q and quit an app when you really meant to press ⌘W to close a window? CommandQ stops apps from quitting unless you hold down ⌘Q for a short delay. This gives you time to catch your mistake and let go before the app quits. Simple. Effective. Awesome.</p> 
+			<p><a href='https://sites.fastspring.com/clickontyler/instant/commandq'>Purchase Now</a> for $3.99</p> 
 	    </div> 
 	</div> 
 </div>
