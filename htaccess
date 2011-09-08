@@ -10,14 +10,14 @@ Redirect 301 /ip http://clickontyler.com/important-people/
 
 Redirect 301 /blog/2009/11/nottingham-a-simple-note-taking-app-for-mac-os-x/ http://clickontyler.com/nottingham/
 
-# RewriteEngine On
+RewriteEngine On
 
 # Remove www
-# RewriteCond %{HTTP_HOST} ^www\.clickontyler\.com$
-# RewriteRule ^(.*)$ http://clickontyler.com/$1 [R=301,L]
-# 
-# RewriteCond %{HTTP_HOST} ^clickonideas\.com$
-# RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
-# 
-# RewriteCond %{HTTP_HOST} ^www\.clickonideas\.com$
-# RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.clickontyler\.com$
+RewriteRule ^(.*)$ http://clickontyler.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^clickonideas\.com$
+RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.clickonideas\.com$
+RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]

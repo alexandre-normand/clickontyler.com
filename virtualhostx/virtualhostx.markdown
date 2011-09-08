@@ -13,7 +13,7 @@ description: VirtualHostX is the best way to host multiple websites on your Mac.
 			<h2>VirtualHostX 3.0</h2> 
 			<p><em>Create and share virtual hosts on your Mac</em></p>
 			<p>VirtualHostX 3.0 is the easiest way to host and share multiple websites on your Mac. It's the perfect solution for web designers working on more than one project at a time. (Aren't we all?) No more nesting folders or asking the programmer across the cubicle for help. With VirtualHostX you can easily create and manage Apache virtual hosts with just a few clicks. <a href="/virtualhostx/download/">Download today</a>!</p> 
-			<p>Version 3.0 takes sharing your websites to a whole new level. With one click you can instantly share your development site with anyone in the world.</p> 
+			<p>Version 3.0 takes sharing your websites to a whole new level. With one click you can instantly <a href="/virtualhostx/liftoff/">share your development site with anyone in the world</a>.</p> 
 	    </div> 
 	</div> 
 	<div class="yui-g band2 center"> 
@@ -49,7 +49,7 @@ description: VirtualHostX is the best way to host multiple websites on your Mac.
 		<div class="yui-u">
 			<h3>New in 3.0</h3>
 			<ul> 
-				<li>Share your virtual hosts with anyone over the internet</li> 
+				<li><a href="/virtualhostx/liftoff/">Share your virtual hosts</a> with anyone over the internet</li> 
 				<li>Backup and restore your data and Apache config files</li> 
 				<li>Keep track of domain names, logins, and everything else with Domain Details</li>
 			</ul>
