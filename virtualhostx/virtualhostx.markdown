@@ -20,7 +20,7 @@ description: VirtualHostX is the best way to host multiple websites on your Mac.
 		<a href="/virtualhostx/download/"><img src="{{ site.cdn_url }}/images/download.png" width="273" height="59"></a> 
 		<a href="https://sites.fastspring.com/clickontyler/instant/virtualhostx"><img src="{{ site.cdn_url }}/images/addtocart.png" width="273" height="59"></a>
 		<br>
-		<p>(<a href="http://clickontyler.com/virtualhostx/download/v2/">Download version 2.0 here</a>)</p>
+		<p>(<a href="http://clickontyler.com/virtualhostx/download/v2/">Download version 2.0 here</a> or <a href="/virtualhostx/upgrade/">upgrade for half price</a>)</p>
 	</div> 
 	<div class="yui-g band3"> 
 		<h3>Screen Shots</h3> 
