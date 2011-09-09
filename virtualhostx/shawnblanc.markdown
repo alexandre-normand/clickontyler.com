@@ -11,35 +11,50 @@ description: VirtualHostX is the best way to host multiple websites on your Mac.
 	    </div> 
 	    <div class="yui-u left"> 
 			<h2>VirtualHostX</h2> 
-			<p><em>Welcome ShawnBlanc.net readers! VirtualHostX is on sale for $19.95 right now, just for you :-)</em></p>
-			<p>VirtualHostX 2.0 is the easiest way to host multiple websites on your Mac. It's the perfect solution for web designers working on more than one project at a time. (Aren't we all?) No more nesting folders or asking the programmer across the cubicle for help. With VirtualHostX you can easily create and manage Apache virtual hosts with just a few clicks. <a href="/virtualhostx/download/">Download today</a>!</p> 
-			<p>Version 2.0 is more than just a new logo. Now VirtualHostX offers finer-grained control over your Apache settings, and works with MAMP, XAMPP, and Apple's built-in web server. It even lets you share your virtual hosts with other users on your local network.</p> 
+			<p><em>Welcome ShawnBlanc.net readers! VirtualHostX is on sale for $29.95 right now, just for you :-)</em></p>
+			<p>VirtualHostX 3.0 is the easiest way to host and share multiple websites on your Mac. It's the perfect solution for web designers working on more than one project at a time. (Aren't we all?) No more nesting folders or asking the programmer across the cubicle for help. With VirtualHostX you can easily create and manage Apache virtual hosts with just a few clicks. <a href="/virtualhostx/download/">Download today</a>!</p> 
+			<p>Version 3.0 takes sharing your websites to a whole new level. With one click you can instantly <a href="/virtualhostx/liftoff/">share your development site with anyone in the world</a>.</p> 
 	    </div> 
 	</div> 
 	<div class="yui-g band2 center"> 
 		<a href="/virtualhostx/download/"><img src="{{ site.cdn_url }}/images/download.png" width="273" height="59"></a> 
-		<a href="https://sites.fastspring.com/clickontyler/instant/virtualhostx?coupon=shawnblanc"><img src="{{ site.cdn_url }}/images/addtocart.png" width="273" height="59"></a> 
+		<a href="https://sites.fastspring.com/clickontyler/instant/virtualhostx"><img src="{{ site.cdn_url }}/images/addtocart.png" width="273" height="59"></a>
+		<br>
+		<p>(<a href="http://clickontyler.com/virtualhostx/download/v2/">Download version 2.0 here</a> or <a href="/virtualhostx/upgrade/">upgrade for half price</a>)</p>
 	</div> 
 	<div class="yui-g band3"> 
 		<h3>Screen Shots</h3> 
-		<a href="{{ site.cdn_url }}/images/vhx2-ss1.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx2-ss1-sm.png" width="125" height="125"></a> 
-		<a href="{{ site.cdn_url }}/images/vhx2-ss2.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx2-ss2-sm.png" width="125" height="125"></a> 
-		<a href="{{ site.cdn_url }}/images/vhx2-ss3.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx2-ss3-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/vhx3-ss1.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx3-ss1-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/vhx3-ss2.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx3-ss2-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/vhx3-ss3.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx3-ss3-sm.png" width="125" height="125"></a> 
+		<a href="{{ site.cdn_url }}/images/vhx3-ss4.png" class="fb"><img src="{{ site.cdn_url }}/images/vhx3-ss4-sm.png" width="125" height="125"></a> 
 		<div id="requirements" style="float:right;"> 
-			<img src="{{ site.cdn_url }}/images/universal-binary.png" width="120" height="75"><br> 
-			Requires Mac OS X 10.5.8 (Leopard) or greater.<br/><br/>Does not support Mac OS X Server edition.
+			<img src="{{ site.cdn_url }}/images/universal-binary.png" width="120" height="75"> 
+			Supports Mac OS X 10.6.8 (Snow Leopard) or 10.7 (Lion).
 		</div> 
 	</div> 
 	<div class="yui-g band4"> 
-		<h3>Features</h3> 
-		<ul> 
-			<li>Automatically configures your Mac's web server settings</li> 
-			<li>Works with <a href="http://bitbob.com/mac-web-development-made-easy">MAMP</a>, XAMPP, and <a href="http://lunatic.web.id/webdev/native-web-development-apache-php-and-mysql-on-mac-osx-leopard/">Apple's built-in web server</a></li> 
-			<li>Share your hosts with other users on the same local network</li> 
-			<li>Supports custom Apache directives</li> 
-			<li>Backup and Restore your web server settings</li> 
-			<li><a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">Create a complete web development environment on your Mac</a></li> 
-		</ul> 
+		<div class="yui-u first">
+			<h3>Features</h3>
+			<ul> 
+				<li>Automatically configures your Mac's web server settings</li> 
+				<li>Works with <a href="http://bitbob.com/mac-web-development-made-easy">MAMP</a>, XAMPP, and <a href="http://lunatic.web.id/webdev/native-web-development-apache-php-and-mysql-on-mac-osx-leopard/">Apple's built-in web server</a></li> 
+				<li>Share your virtual hosts with anyone over the internet</li> 
+				<li>Supports custom Apache directives</li> 
+				<li>Backup and Restore your web server settings</li> 
+				<li><a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">Create a complete web development environment on your Mac</a></li> 
+			</ul>
+		</div>
+
+		<div class="yui-u">
+			<h3>New in 3.0</h3>
+			<ul> 
+				<li><a href="/virtualhostx/liftoff/">Share your virtual hosts</a> with anyone over the internet</li> 
+				<li>Backup and restore your data and Apache config files</li> 
+				<li>Keep track of domain names, logins, and everything else with Domain Details</li>
+			</ul>
+		</div>
+
     </div> 
 	<div class="yui-g band5"> 
 		<h3>What they're saying</h3> 
