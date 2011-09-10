@@ -9,7 +9,7 @@ Almost four years ago today, I moved across the country and accepted a job at Ya
 
 In the Fall of 2001 I was a Sophomore in college at [MTSU](http://mtsu.edu/). Each morning I'd roll out of bed and open my Yahoo! home page. It was the first step in my morning routine. I'd check the news, check my email, then get ready for class.
 
-On Tuesday the 11th I woke up at 7:45. The first thing I saw on Yahoo! was [a headline](http://web.archive.org/web/20010911205959/http://www.yahoo.com/) that a plane had crashed into the one of towers. I clicked through to the article, but it was such breaking news the whole story was only three sentences long. It had just happened.
+On Tuesday the 11th I woke up at 7:45. The first thing I saw on Yahoo! was [a headline](http://web.archive.org/web/20010911205959/http://www.yahoo.com/) that a plane had crashed into one of the towers. I clicked through to the article, but it was such breaking news the whole story was only three sentences long. It had just happened.
 
 I woke up my roommate &mdash; a pilot himself &mdash; and turned on CNN just in time for both of us to watch the second plane hit live. Neither one of us spoke about it. We just sat there in silence watching the morning unfold.
 
