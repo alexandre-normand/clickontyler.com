@@ -19,4 +19,4 @@ And so, six years later in September 2007, I was sitting in Starbucks with my Ya
 
 That's why I took the job.
 
-So tech pundits can write gleefully about the fall of Yahoo! &mdash; the many missteps they took during their short coporate history. But fuck 'em. I'm proud I got to work there and with so many incredible people for three years. And I'm sad to see Yahoo! put themselves up for sale. There are few companies around with such reach &mdash; few that can claim to have changed the lives of so many people with nothing else but a few bits over the wire.
+So tech pundits can write gleefully about the fall of Yahoo! &mdash; the many missteps they took during their short corporate history. But fuck 'em. I'm proud I got to work there and with so many incredible people for three full years. And I'm sad to see Yahoo! put themselves up for sale. There are few companies around with such reach &mdash; few that can claim to have changed the lives of so many people with nothing else but a few bits over the wire.
