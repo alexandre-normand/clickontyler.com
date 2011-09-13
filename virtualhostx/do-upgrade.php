@@ -7,7 +7,7 @@ permalink: /do-upgrade.php
 	require '/var/www/shine.clickontyler.com/includes/master.inc.php';
 
 	$db = Database::getDatabase();
-	$email = $db->escape($_POST['email']);
+	$email = $db->escape(isset($_POST['email']) ? $_POST['email'] : 'noemail');
 	$row = $db->getRow("SELECT * FROM shine_orders WHERE app_id = '3' AND payer_email = '$email' ORDER BY dt DESC");
 	
 	$out = '';
