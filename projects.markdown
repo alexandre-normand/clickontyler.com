@@ -11,11 +11,20 @@ permalink: /projects/index.html
 		
 		<h3>Commercial Projects</h3> 
 		<ul> 
-			<li><a href='/virtualhostx/'>VirtualHostX</a> - Simple Apache virtual hosting for Mac OS X</li> 
-			<li><a href='/incoming/'>Incoming!</a> - A Twitter search client for Mac OS X</li> 
-            <li><a href='/nottingham/'>Nottingham</a> - An elegant notepad for Mac OS X</li> 
-			<li><a href='/tennessee-traffic/'>Tennessee Traffic</a> - Vital Tennessee traffic info beamed straight to your iPhone</li> 
-			<li><a href='/commandq/'>CommandQ</a> - Small Mac utility that prevents accidentlly quitting an app</li> 
+			<li><a href='/virtualhostx/'>VirtualHostX</a> - Apache virtual hosting for Mac OS X</li> 
+            <li><a href='/nottingham/'>Nottingham</a> - An elegant notepad for Mac OS X</li>
+			<li><a href='/incoming/'>Incoming!</a> - A Twitter search client for your Mac</li>
+			<li><a href='/commandq/'>CommandQ</a> - A small Mac utility that prevents accidentlly quitting an app</li>
+			<li><a href="/tennessee-traffic/">Traffic Advisor</a> - Vital traffic info beamed straight to your iPhone. Available for
+				<ul>
+					<li><a href="/alabama-traffic/">Alabama</a></li>
+					<li><a href="/georgia-traffic/">Georgia</a></li>
+					<li><a href="/michigan-traffic/">Michigan</a></li>
+					<li><a href="/north-carolina-traffic/">North Carolina</a></li>
+					<li><a href="/tennessee-traffic/">Tennessee</a></li>
+					<li><a href="/utah-traffic/">Utah</a></li>
+				</ul>
+			</li>
 			<!-- <li><a href="/sparrow/">Sparrow</a> - A <a href="http://fireeagle.yahoo.net/">FireEagle</a> updater for iPhone</li> --> 
 		</ul> 
 		
