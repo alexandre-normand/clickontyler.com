@@ -58,7 +58,11 @@ permalink: /index.php
 			<h3>Purchase History</h3>
 			<ul>
 				<?PHP foreach($orders as $o) : ?>
+				<?PHP if($o->app_id == 18) : ?>
+				<li><?PHP echo dater($o->dt, 'F j, Y'); ?> - <a href="<?PHP echo $o->subscriptionURL(); ?>"><?PHP echo $o->applicationName(); ?></a></li>
+				<?PHP else : ?>
 				<li><?PHP echo dater($o->dt, 'F j, Y'); ?> - <?PHP echo $o->applicationName(); ?></li>
+				<?PHP endif; ?>
 				<?PHP endforeach; ?>
 			</ul>
 		</div>
