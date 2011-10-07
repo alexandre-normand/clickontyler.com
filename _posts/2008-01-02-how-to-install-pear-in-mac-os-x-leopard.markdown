@@ -31,7 +31,7 @@ Edit `/etc/php.ini` and change
 to read
 
 {% highlight bash linenos %}
-include_path = ".:/usr/share/pear"
+include_path = ".:/usr/local/share/pear"
 {% endhighlight %}
 
 Restart Apache and you're done!
