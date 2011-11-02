@@ -1,5 +1,5 @@
 ---
-date: 2011-11-17 09:44:13
+date: 2011-10-17 09:44:13
 title: Using Lift Off with WordPress
 layout: post
 permalink: /blog/2011/11/lift-off-and-wordpress/index.html
