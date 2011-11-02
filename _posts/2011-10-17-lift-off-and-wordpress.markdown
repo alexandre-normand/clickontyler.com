@@ -2,7 +2,7 @@
 date: 2011-10-17 09:44:13
 title: Using Lift Off with WordPress
 layout: post
-permalink: /blog/2011/11/lift-off-and-wordpress/index.html
+permalink: /blog/2011/10/lift-off-and-wordpress/index.html
 slug: lift-off-and-wordpress
 ---
 I just wanted to post that I've written a small WordPress plugin that makes using [Lift Off](http://clickontyler.com/virtualhostx/liftoff/) much easier. It's a feature many Lift Off users have been asking for, and I'm thrilled that it's finally ready and working.
