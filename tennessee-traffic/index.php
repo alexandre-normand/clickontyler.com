@@ -106,7 +106,7 @@ layout: nil
 			<h3>Follow us</h3>
 			
 			<ul id="social">
-				<li><a href="http://twitter.com/tylerhall" id="twitter">Follow us on Twitter</a></li>
+				<li><a href="http://twitter.com/trafficadvisor" id="twitter">Follow us on Twitter</a></li>
 				<li><a href="http://feeds.feedburner.com/clickontyler" id="rss">RSS feed</a></li>
 			</ul>
 			
