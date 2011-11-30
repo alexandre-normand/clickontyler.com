@@ -1,2 +1,2 @@
 <?PHP
-	header('Location: http://clickontyler.com/contact/');
+	header('Location: http://support.clickontyler.com/');
