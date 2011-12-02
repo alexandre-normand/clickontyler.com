@@ -13,7 +13,7 @@ $(document).ready(function() {
 		fade: false,
 		html: true,
 		// Text on the buy button tooltip:
-		fallback: "$1.99 on the App Store <span>Version 2.0 requires iOS 4 or later. Works on iPhone and iPod Touch.</span>"
+		fallback: "$2.99 on the App Store <span>Version 2.0 requires iOS 4 or later. Works on iPhone and iPod Touch.</span>"
 	});
 
 	// Newsletter default text
