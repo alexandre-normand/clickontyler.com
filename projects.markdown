@@ -18,6 +18,7 @@ permalink: /projects/index.html
 			<li><a href="/tennessee-traffic/">Traffic Advisor</a> - Vital traffic info beamed straight to your iPhone. Available for
 				<ul>
 					<li><a href="/alabama-traffic/">Alabama</a></li>
+					<li><a href="/connecticut-traffic/">Connecticut</a></li>
 					<li><a href="/georgia-traffic/">Georgia</a></li>
 					<li><a href="/michigan-traffic/">Michigan</a></li>
 					<li><a href="/north-carolina-traffic/">North Carolina</a></li>
