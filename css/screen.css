@@ -1,10 +1,10 @@
 ---
 layout: nil
 ---
-@font-face { font-family:news; src:url(http://new.clickontyler.com/images/news.ttf) format("truetype"); }
+@font-face { font-family:news; src:url({{ site.cdn_url }}/images/news.ttf) format("truetype"); }
 
 html { background-color:#bfbfbf; }
-body { width:1000px; margin:0 auto; background-color:#f2f2f2; background-image:url('http://new.clickontyler.com/images/body.jpg');
+body { width:1000px; margin:0 auto; background-color:#f2f2f2; background-image:url('{{ site.cdn_url }}/images/body.jpg');
 	-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.3);
 	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.3);
@@ -31,21 +31,21 @@ body { width:1000px; margin:0 auto; background-color:#f2f2f2; background-image:u
 
 #hero { margin-bottom:2em; }
 
-#belt { height:165px; background:url('http://new.clickontyler.com/images/belt.jpg'); margin-bottom:2em; }
+#belt { height:165px; background:url('{{ site.cdn_url }}/images/belt.jpg'); margin-bottom:2em; }
 #belt table { width:100%; text-align:center; height:165px; }
 #belt p a { text-transform:uppercase; color:#fff; font-family:"news"; font-size:30px; text-decoration:none; }
 #belt p a:hover { text-decoration:underline; }
 #belt p img { -webkit-transition:margin-top 0.1s linear; -moz-transition:margin-top 0.1s linear; -o-transition:margin-top 0.1s linear; }
 #belt img:hover { margin-top:-5px; }
 
-#belt-header { height:85px; background:url('http://new.clickontyler.com/images/belt.jpg'); margin-bottom:2em; }
+#belt-header { height:85px; background:url('{{ site.cdn_url }}/images/belt.jpg'); margin-bottom:2em; }
 #belt-header h2 { text-transform:uppercase; color:#fff; font-family:"news"; font-size:50px; text-decoration:none; }
 
 .card { width:460px; height:227px; float:left; margin-bottom:20px; }
-.card-vhx { background:url('http://new.clickontyler.com/images/card-vhx.png'); margin-right:20px; }
-.card-n2 { background:url('http://new.clickontyler.com/images/card-n2.png'); }
-.card-q { background:url('http://new.clickontyler.com/images/card-q.png'); margin-right:20px; }
-.card-soon { background:url('http://new.clickontyler.com/images/card-soon.png'); }
+.card-vhx { background:url('{{ site.cdn_url }}/images/card-vhx.png'); margin-right:20px; }
+.card-n2 { background:url('{{ site.cdn_url }}/images/card-n2.png'); }
+.card-q { background:url('{{ site.cdn_url }}/images/card-q.png'); margin-right:20px; }
+.card-soon { background:url('{{ site.cdn_url }}/images/card-soon.png'); }
 .card h3 { font-size:30px; margin-left:230px; margin-top:30px; }
 .card h3 a { color:#cb623C; font-family:"news"; text-decoration:none; }
 .card h3 a:hover { text-decoration:underline; }
@@ -62,7 +62,7 @@ h2.title span { color:#cb623c; }
 .blog-teaser p a { font-size:28px; font-family:"news"; color:#cb623c; text-decoration:none; }
 .blog-teaser p a:hover { text-decoration:underline; }
 
-#ft { height:180px; background:url('http://new.clickontyler.com/images/ft.jpg'); color:#fff; font-family:"Georgia"; text-align:center; }
+#ft { height:180px; background:url('{{ site.cdn_url }}/images/ft.jpg'); color:#fff; font-family:"Georgia"; text-align:center; }
 #ft h2 { font-family:"news"; font-size:20px; text-transform:uppercase; margin-bottom:0.5em; }
 #ft p { font-size:14px; margin-bottom:0.5em; }
 #ft a { color:#cb623c; text-decoration:none; }
@@ -95,7 +95,7 @@ h2.title span { color:#cb623c; }
 .post table a:hover { text-decoration:underline; }
 .post table img { vertical-align:middle; }
 
-#product { height:350px; background:url('/images/product.jpg'); padding-top:2em; }
+#product { height:350px; background:url('{{ site.cdn_url }}/images/product.jpg'); padding-top:2em; }
 #product .info { width:350px; margin-left:2em; float:left; }
 #product .info p a { color:#cb623c; }
 #product .image { float:right; }
@@ -105,7 +105,7 @@ h2.title span { color:#cb623c; }
 #product .btn:hover { text-decoration:underline; }
 #product .btn2 { background-color:#cb623c; }
 
-#quotes { background:url('/images/quotes.jpg'); border-bottom:2px solid #ddd; padding:2em 0;}
+#quotes { background:url('{{ site.cdn_url }}/images/quotes.jpg'); border-bottom:2px solid #ddd; padding:2em 0;}
 #quotes .wrapper { border:2px solid #e4dec7; border-width:2px 0; width:680px; padding:1em; text-align:center; }
 #quotes blockquote { font-family:"Georgia"; color:#262626; font-size:24px;  }
 #quotes cite { text-align:center; font-family:"Georgia"; color:#262626; font-size:14px; font-style:italic; }
