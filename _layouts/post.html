@@ -1,32 +1,37 @@
 ---
 layout: default
 ---
-<div id="bd" class="blog">
-	<div class="yui-g band1">
-		<div class="post">
-			<h2><a href="http://clickontyler.com{{ page.permalink | replace:'index.html','' }}" rel="bookmark" title="Permanent Link to {{ page.title }}">{{ page.title }}</a></h2>
-			<p class="dt">{{ page.date | date: "%A, %B %d, %Y" }}</p>
-			<div class="entry">
-				{% if page.image %}
-				<img src="{{ page.image }}" style="float:right; margin:auto auto 1em 1em;" />
-				{% endif %}
-				{{ content }}
-			</div>
-		</div>
+<div id="belt-header">
+	<div class="wrapper">
+		<h2>Our Blog</h2>
 	</div>
-	<div class="yui-g band2">
-		{% if page.previous %}
-		<div class="yui-u first left">
-			<p><a href="{{ page.previous.url | replace:'index.html','' }}">&laquo; {{ page.previous.title }}</a></p>
+</div>
+
+<div class="blog wrapper">
+	<div class="post">
+		<h2><a href="http://clickontyler.com{{ page.permalink | replace:'index.html','' }}" rel="bookmark" title="Permanent Link to {{ page.title }}">{{ page.title }}</a></h2>
+		<p class="dt">{{ page.date | date: "%A, %B %d, %Y" }}</p>
+		<div class="entry">
+			{% if page.image %}
+			<img src="{{ page.image }}" style="float:right; margin:auto auto 1em 1em;" />
+			{% endif %}
+			{{ content }}
 		</div>
-		{% endif %}
-		{% if page.next %}
-		<div class="yui-u right">
-			<p><a href="{{ page.next.url | replace:'index.html','' }}">{{ page.next.title }} &raquo;</a></p>
-		</div>
-		{% endif %}
-	</div>
-	<div class="yui-g band2">
-		
-	</div>
+
+		<table class="nav">
+			<tr>
+				<td class="left fifty">
+					{% if page.previous %}
+						<a href="{{ page.previous.url | replace:'index.html','' }}"><img src="{{ site.cdn_url }}/images/left.png" width="30" height="32"> {{ page.previous.title }}</a>
+					{% endif %}
+				</td>
+				<td class="right fifty">
+					{% if page.next %}
+						<a href="{{ page.next.url | replace:'index.html','' }}">{{ page.next.title }} <img src="{{ site.cdn_url }}/images/right.png" width="30" height="32"></a>
+					{% endif %}
+				</td>
+			</tr>
+		</table>
+
+	</div>	
 </div>

@@ -1,6 +1,6 @@
 ---
 title: VirtualHostX 3.0 Upgrade
-layout: default
+layout: page
 permalink: /do-upgrade.php
 ---
 <?PHP
@@ -57,14 +57,5 @@ permalink: /do-upgrade.php
 		}
 	}
 ?>
-<div class='contact' id='bd'> 
-	<div class='yui-gd band1'> 
-		<div class='yui-u first'> 
-			<img src='{{ site.cdn_url }}/images/hats.jpg' /> 
-		</div> 
-		<div class='yui-u'>
-			<h2>VirtualHostX 3.0 Upgrade</h2>
-			<?PHP echo $out; ?>
-		</div> 
-	</div> 
-</div>
+<h2 class="title">VirtualHostX 3.0 Upgrade</h2>
+<?PHP echo $out; ?>

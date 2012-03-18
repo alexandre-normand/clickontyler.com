@@ -2,46 +2,68 @@
 title: Click On Tyler
 layout: default
 ---
-<div id="bd">
-    <div class="yui-g band1">
-        <h2>Mac Apps</h2>
-		<table style="width:100%;">
+<div id="hero" class="wrapper">
+	<img src="{{ site.cdn_url }}/images/hero-vhx.jpg" width="940" height="400">
+</div>
+
+<div id="belt">
+	<div class="wrapper">
+		<table>
 			<tr>
-	            <td class="center">
-	                <a href='/virtualhostx/'><img class='nudgeme' src='http://cdn.clickontyler.com/images/virtualhostx-band1.png' height='133' width='169' /></a>
-	                <p class='center'><a href='/virtualhostx/'>VirtualHostX</a></p>
-	            </td>
-	            <td class="center">
-	                <a href='/nottingham/'><img class='nudgeme' src='http://cdn.clickontyler.com/images/nottingham-band1.png' height='133' width='169' /></a>
-	                <p class='center'><a href='/nottingham/'>Nottingham</a></p>
-	            </td>
-	            <td class="center">
-	                <a href='/commandq/'><img class='nudgeme' src='http://cdn.clickontyler.com/images/commandq-band1.png' height='133' width='169' /></a>
-	                <p class='center'><a href='/commandq/'>CommandQ</a></p>
-	            </td>
+				<td>
+					<a href="/apps/"><img src="{{ site.cdn_url }}/images/belt-apps.png" width="140" height="78"></a>
+					<p><a href="/apps/">Apps</a></p>
+				</td>
+				<td>
+					<a href="/blog/"><img src="{{ site.cdn_url }}/images/belt-blog.png" width="140" height="78"></a>
+					<p><a href="/blog/">Blog</a></p>
+				</td>
+				<td>
+					<a href="/projects/"><img src="{{ site.cdn_url }}/images/belt-projects.png" width="140" height="78"></a>
+					<p><a href="/projects/">Projects</a></p>
+				</td>
+				<td>
+					<a href="/contact/"><img src="{{ site.cdn_url }}/images/belt-contact.png" width="140" height="78"></a>
+					<p><a href="/contact/">Contact</a></p>
+				</td>
 			</tr>
 		</table>
-    </div>
+	</div>
+</div>
 
-    <div class="yui-g band2">
-        <h2>Welcome</h2>
-        <p><em>After a three year adventure working for Yahoo! in San Francisco, I'm now back in Nashville doing
-            Mac and iOS development full-time.</em> Feel free to give one of my Mac apps a try or browse through
-            <a href="http://github.com/tylerhall">my open source code</a> and <a href="/projects/">past projects</a>.
-            If you'd like to <a href="/contact/">contact me</a>, go ahead, but please
-            know that recruiters who cold-call my office phone will be mocked.</p>
-    </div>
+<div class="wrapper">		
+	<div class="card card-vhx">
+		<h3><a href="/virtualhostx/">VirtualHostX</a></h3>
+		<p>The easiest way to host multiple websites on your Mac.</p>
+	</div>
 
-    <div class="yui-g band3">
-        <h2>Recent Blog Posts <a href="http://feeds.feedburner.com/clickontyler"><img src="{{ site.cdn_url }}/images/feed-icon-14x14.png" width="14" height="14"></a></h2>
-    </div>
+	<div class="card card-n2">
+		<h3><a href="/nottingham/">Nottingham</a></h3>
+		<p>The elegant notepad for your Mac.</p>			
+	</div>
 
-    <div class="yui-gb band4">
-        {% for i in (0..2) %}
-        <div class="yui-u first">
-            <h3>{{ site.posts[i].date | date: "%B -%d" | downcase | remove:'-0' | remove:'-' }}</h3>
-            <h4><a href="{{ site.posts[i].url | replace:'index.html','' }}">{{ site.posts[i].title }}</a></h4>
-        </div>
-        {% endfor %}
-    </div>
+	<div class="card card-q">
+		<h3><a href="/commandq/">CommandQ</a></h3>
+		<p>Never accidentally quit an app again.</p>
+	</div>
+
+	<div class="card card-soon">
+		<h3><a href="#">Coming Soon</a></h3>
+		<p>An all new tool for web developers coming May 2012.</p>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<div class="wrapper">
+	<h2 class="title">From Our <span>Blog</span></h2>
+	{% for i in (0..2) %}
+	<div class="blog-teaser">
+		<div class="date">
+			<span class="month">{{ site.posts[i].date | date: "%b" | downcase | remove:'-0' | remove:'-' }}</span>
+			<span class="day">{{ site.posts[i].date | date: "-%d" | downcase | remove:'-0' | remove:'-' }}</span>
+		</div>
+		<p><a href="{{ site.posts[i].url | replace:'index.html','' }}">{{ site.posts[i].title }}</a></p>
+	</div>
+	<div class="clear"></div> 
+    {% endfor %}
 </div>

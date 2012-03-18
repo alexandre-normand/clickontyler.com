@@ -1,32 +1,28 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
- "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>{{ page.title }}</title>
-	{% if page.description %}
-	<meta name="description" content="{{ page.description }}">
-	{% else %}
-	<meta name="description" content="{{ site.description }}">
-	{% endif %}
-	<link rel="stylesheet" href="{{ site.cdn_url }}/css/screen.css" type="text/css">
-	<link rel="stylesheet" href="{{ site.cdn_url }}/css/fancybox.css" type="text/css">
-	<link rel="stylesheet" href="{{ site.cdn_url }}/css/pygments.css" type="text/css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light" type="text/css">
-	<link rel="alternate" href="http://feeds.feedburner.com/clickontyler" type="application/rss+xml" title="Recent blog posts">
-	<link rel="icon"type="image/png"href="{{ site.cdn_url }}/favicon.ico">
-	<link rel="apple-touch-icon" href="{{ site.cdn_url }}/webclip.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css">
+	<link rel="stylesheet" type="text/css" href="/css/screen.css">
 </head>
 <body>
-	<div id="custom-doc" class="yui-t7">
-		<div id="bg"></div>
-		<div id="hd">
-			<h1><span>Tyler Hall</span></h1>
-			<ul>
-				<li class="home"><a href="/"><span>Home</span></a></li
-				><li class="apps"><a href="/store/"><span>Store</span></a></li
-				><li class="blog"><a href="/blog/"><span>Blog</span></a></li
-				><li class="projects"><a href="/projects/"><span>Projects</span></a></li
-				><li class="contact"><a href="/contact/"><span>Contact</span></a></li>
-			</ul>
-			<div id="transbar"></div>
+	<div id="hd" class="wrapper">
+		<div id="logo">
+			<h1>ClickOnTyler</h1>
+			<div class="underline"></div>
+			<p>Web + Cocoa</p>
 		</div>
+		
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/apps/">Apps</a></li>
+			<li><a href="/blog/">Blog</a></li>
+			<li><a href="/projects/">Projects</a></li>
+			<li><a href="/contact/">Contact</a></li>
+		</ul>
+		
+		<div class="clear"></div>
+	</div>
