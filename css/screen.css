@@ -26,6 +26,8 @@ body { width:1000px; margin:0 auto; background-color:#f2f2f2; background-image:u
 
 #logo { float:left; text-align:center; width:260px; font-family:"news"; }
 #logo h1 { font-size:40px; text-transform:uppercase; }
+#logo h1 a { text-decoration:none; color:#000; }
+#logo h1 a:hover { font-weight:bold; }
 #logo .underline { height:2px; background-color:#91a9a9; }
 #logo p { text-transform:uppercase; font-size:11px; }
 
