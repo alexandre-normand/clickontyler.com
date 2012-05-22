@@ -15,4 +15,4 @@ CommandQ is a small app that sits in your menubar and catches your accidental &#
 
 CommandQ is smart, too. You can tell it to work with every app on your Mac or just a few specific ones.
 
-Read more about [CommandQ](http://clickontyler.com/commandq/) or [download](http://clickontyler.com/commandq/download/) it today. Or head on over to my store and [buy a copy](http://clickontyler.com/commandq/purchase/) for $3.99.
+Read more about [CommandQ](http://clickontyler.com/commandq/) or [download](http://clickontyler.com/commandq/download/) it today. Or head on over to my store and [buy a copy](http://clickontyler.com/commandq/purchase/).
