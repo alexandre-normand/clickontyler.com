@@ -11,7 +11,7 @@ I went through my git revision history and was able to track down the error. Fro
 
 Regardless, now that the ([once famous](http://www.youtube.com/watch?v=kcfGsOKXO5M)) universal binary checkbox is gone, here's how to add PowerPC support back.
 
-In your target's build settings, change "Architectures" to "Other…" and specify "ppc i386 x86_64".
+In your target's build settings, change "Architectures" to "Other" and specify "ppc i386 x86_64".
 
 ![Universal Binary Settings]({{ site.cdn_url }}/blog/ubsettings.png)
 
