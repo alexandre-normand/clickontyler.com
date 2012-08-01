@@ -92,7 +92,7 @@ h2.title span { color:#cb623c; }
 .post h2 a:hover { text-decoration:underline; }
 .post p.dt { color:#737373; font-style:italic; margin-bottom:1em; }
 .post .entry { border-bottom:2px solid #91a9a9; padding-bottom:1em; margin-bottom:1em; }
-.post .entry p { color:#262626; font-size:14px; margin-bottom:1em; }
+.post .entry p { color:#262626; font-size:14px; margin-bottom:1em; line-height:150%; }
 .post .entry a { color:#cb623c; }
 .post .entry em { font-style:italic; }
 .post .entry strong { font-weight:bold; }
