@@ -77,7 +77,7 @@ h2.title span { color:#cb623c; }
 #ft p { font-size:14px; margin-bottom:0.5em; }
 #ft a { color:#cb623c; text-decoration:none; }
 #ft a:hover { text-decoration:underline; }
-#ft .box { width:250px; float:left; margin-top:1em; }
+#ft .box { width:300px; float:left; margin-top:1em; }
 
 .blog ul { margin-left:2em; margin-bottom:1em;}
 .blog ul li { list-style:disc outside; color:#666; line-height:153.9%; }
