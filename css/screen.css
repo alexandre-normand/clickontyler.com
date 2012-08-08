@@ -39,7 +39,9 @@ body { width:1000px; margin:0 auto; background-color:#f2f2f2; background-image:u
 #hd li.active { background-color:#92aaaa; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 #hd li.active a { color:#fff; }
 
-#hero { margin-bottom:2em; }
+#hero { margin-bottom:2em; position:relative; height:400px; }
+#hero a { position:absolute; z-index:1; }
+#hero a.active { z-index:3; }
 
 #belt { height:165px; background:url('{{ site.cdn_url }}/images/belt.jpg'); margin-bottom:2em; }
 #belt table { width:100%; text-align:center; height:165px; }
