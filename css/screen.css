@@ -53,10 +53,13 @@ body { width:1000px; margin:0 auto; background-color:#f2f2f2; background-image:u
 #belt-header h2 { text-transform:uppercase; color:#fff; font-family:"news"; font-size:50px; text-decoration:none; }
 
 .card { width:460px; height:227px; float:left; margin-bottom:20px; }
+
 .card-vhx { background:url('{{ site.cdn_url }}/images/card-vhx.png'); margin-right:20px; }
 .card-n2 { background:url('{{ site.cdn_url }}/images/card-n2.png'); }
 .card-q { background:url('{{ site.cdn_url }}/images/card-q.png'); margin-right:20px; }
+.card-inc { background:url('{{ site.cdn_url }}/images/card-inc.png'); }
 .card-soon { background:url('{{ site.cdn_url }}/images/card-soon.png'); }
+
 .card h3 { font-size:30px; margin-left:230px; margin-top:30px; }
 .card h3 a { color:#cb623C; font-family:"news"; text-decoration:none; }
 .card h3 a:hover { text-decoration:underline; }
