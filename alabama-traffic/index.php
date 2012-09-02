@@ -22,7 +22,7 @@ layout: nil
 		<div id="intro-inner" class="clearfix">
 			<h1 id="logo">Alabama Traffic Advisor<small>State-wide Traffic Conditions on your iPhone</small></h1>
 			
-			<p>Alabama Traffic is the best way to stay informed about the latest Alabama traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.tdot.state.tn.us/">Alabama Department of Transportation</a>. </p>
+			<p>Alabama Traffic is the best way to stay informed about the latest Alabama traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.dot.state.al.us/">Alabama Department of Transportation</a>. </p>
 			
 			<ul id="features">
 				<li><img src="{{ site.cdn_url }}/alabama-traffic/img/camera.png" alt="" /> <strong>Live Traffic Cameras</strong> Every traffic camera in Alabama at your fingertips.</li>

@@ -22,7 +22,7 @@ layout: nil
 		<div id="intro-inner" class="clearfix">
 			<h1 id="logo">Utah Traffic Advisor<small>State-wide Traffic Conditions on your iPhone</small></h1>
 			
-			<p>Utah Traffic is the best way to stay informed about the latest Utah traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.tdot.state.tn.us/">Utah Department of Transportation</a>. </p>
+			<p>Utah Traffic is the best way to stay informed about the latest Utah traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.udot.utah.gov/">Utah Department of Transportation</a>. </p>
 			
 			<ul id="features">
 				<li><img src="{{ site.cdn_url }}/utah-traffic/img/camera.png" alt="" /> <strong>Live Traffic Cameras</strong> Every traffic camera in Utah at your fingertips.</li>

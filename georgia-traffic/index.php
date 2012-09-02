@@ -22,7 +22,7 @@ layout: nil
 		<div id="intro-inner" class="clearfix">
 			<h1 id="logo">Georgia Traffic Advisor<small>State-wide Traffic Conditions on your iPhone</small></h1>
 			
-			<p>Georgia Traffic is the best way to stay informed about the latest Georgia traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.tdot.state.tn.us/">Georgia Department of Transportation</a>. </p>
+			<p>Georgia Traffic is the best way to stay informed about the latest Georgia traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.dot.state.ga.us/Pages/default.aspx">Georgia Department of Transportation</a>. </p>
 			
 			<ul id="features">
 				<li><img src="{{ site.cdn_url }}/georgia-traffic/img/camera.png" alt="" /> <strong>Live Traffic Cameras</strong> Every traffic camera in Georgia at your fingertips.</li>

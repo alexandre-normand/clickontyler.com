@@ -22,7 +22,7 @@ layout: nil
 		<div id="intro-inner" class="clearfix">
 			<h1 id="logo">North Carolina Traffic Advisor<small>State-wide Traffic Conditions on your iPhone</small></h1>
 			
-			<p>North Carolina Traffic is the best way to stay informed about the latest North Carolina traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.tdot.state.tn.us/">North Carolina Department of Transportation</a>. </p>
+			<p>North Carolina Traffic is the best way to stay informed about the latest North Carolina traffic conditions using your iPhone or iPod Touch. Our always up-to-date traffic data comes directly from the <a href="http://www.ncdot.gov/">North Carolina Department of Transportation</a>. </p>
 			
 			<ul id="features">
 				<li><img src="{{ site.cdn_url }}/north-carolina-traffic/img/camera.png" alt="" /> <strong>Live Traffic Cameras</strong> Every traffic camera in North Carolina at your fingertips.</li>
