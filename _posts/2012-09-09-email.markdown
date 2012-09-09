@@ -1,0 +1,24 @@
+---
+date: 2012-09-09 20:57:14
+title: Cutting Back on iPhone Notifications
+layout: post
+permalink: /blog/2012/08/cutting-back-on-iphone-notifications/index.html
+slug: cutting-back-on-iphone-notifications
+---
+Like most of you reading this, I have my iPhone with me 24/7. Lately, I've caught myself compulsively checking it for new notifications. Even when it hasn't made a sound or buzzed recently, I still have the habit of hitting the home button just in case there's a missed notification on the lock screen. I was starting to remind myself of a gambler pulling a slot lever thinking just-one-more-time-maybe-this-time there will be something there for me. It's an addictive pattern and one that I wanted to try and curb if not break.
+
+I decided to try and pare down the number of notifications I get throughout the day by turning off everything that wasn't necessary. But what's necessary? I scrolled through my Notification preferences in Settings.app and was shocked at just how many apps are setup to send push alerts. Most, while well-meaning, aren't that important. I ended up turning off everything except SMS, Twitter, and email.
+
+I left those three enabled because I reasoned anything that comes through one of those channels requires an immediate/timely response. No one sends me text messages except friends, family, and my bank. And while I could probably do with fewer Twitter @replies, I do get quite a few tweets from customers looking for help. I definitely want to reply to those quickly when possible. That leaves email, which I started to think more about. I realized very rarely do I get any one email that requires a fast response. In most cases, I've learned customers expect a reply within a business day. Responses within a few hours (or even less) are just gravy. With that in mind I turned off email notifications, too.
+
+But then I took it a step further and actually removed my email accounts entirely from my phone. It was a spur of the moment decision. The rationale being that I'm already sitting in front of a computer nearly twelve hours a day with Mail.app open. Every time I got an email Mail.app would chime, my phone would buzz, and my iPad would ding as well. Definitely no need for all three. And for the time times I'm out of the house with just my phone, I don't really *need* email, do I?
+
+And so that's what I did for the next two weeks. No notifications except for texts and Twitter. And email completely removed from my device.
+
+How'd it go? The best way to describe it is similar to cutting out caffeine cold-turkey. I have to admit I was a little twitchy that first week. Even though I knew there was nothing to look at, I still had to stop myself from tapping the home button from time to time. But eventually that feeling began to fade. In its place was a . . . comfortable quiet. I found myself leaving my phone in other rooms rather than always keeping it in my pocket. Hours would go by without thinking about what I might be missing. It was a nice change.
+
+The only problem I encountered were a few times when I was out and needed to reference something in my email. In one case I had an address saved in an email I needed to lookup; another time I needed to show a barcode in a PDF attachment to get into a Washington Nationals baseball game.
+
+I figured those two cases were enough reason to re-enable email on the device. BUT, I didn't turn on email notifications. Instead, I set my email to only fetch manually when I open the app. I found that setting to be a nice compromise. No more unnecessary alerts but access when I need it.
+
+And so that's the way I've left things for the last two weeks. Now, if my phone buzzes in my pocket, I know it's either a text or someone on Twitter trying to reach me. I no longer take my phone out just to find a useless spam email. It's taken some getting used to, but overall my mind feels less busy. And that's a good thing. I highly recommend it.
