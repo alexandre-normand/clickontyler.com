@@ -67,17 +67,17 @@ But OmniFocus's Due perspective is just the beginning. Here's my toolbar with th
 
 There are four perspectives on the right that I've created.
 
- * Y! Available - Shows all of the work related tasks that I can choose from to do. This is more powerful than it might initially seem. Because OmniFocus lets you make certain tasks dependent on others &mdash; Task A has to be completed before Task B &mdash; you only see those items you can actually do. It filters out everything else so you don't get distracted when picking what's next.
- * Y! Next - This is similar to the Available view, except it further refines the tasks it displays. Rather than showing everything you can do, it simply gives you the next item available in each project. This is great when you're in the zone, cranking through your work, and trying to stay focused.
- * People - I love this view. It generates a list of all the items that I'm waiting for other people to finish. Here's a screenshot:  
+ * [Y! Available](http://cdn.clickontyler.com/blog/of-available.png) - Shows all of the work related tasks that I can choose from to do. This is more powerful than it might initially seem. Because OmniFocus lets you make certain tasks dependent on others &mdash; Task A has to be completed before Task B &mdash; you only see those items you can actually do. It filters out everything else so you don't get distracted when picking what's next.
+ * [Y! Next](http://cdn.clickontyler.com/blog/of-next.png) - This is similar to the Available view, except it further refines the tasks it displays. Rather than showing everything you can do, it simply gives you the next item available in each project. This is great when you're in the zone, cranking through your work, and trying to stay focused.
+ * [People](http://cdn.clickontyler.com/blog/of-people.png) - I love this view. It generates a list of all the items that I'm waiting for other people to finish. Here's a screenshot:  
 <img src="{{ site.cdn_url }}/blog/of-people2.png">  
 I accomplish this by creating a context with the name of each person that owes me something. Then, whenever I need to delegate a task, I just assign it a context of that person's name and forget about it.  
   
-  Two tricks that make this work well:  
+Two tricks that make this work well:  
   
-  1. Group people by company. This lets me see not only who at Yahoo! I'm waiting on, but also any 3rd party vendors.  
-  2. Make sure you mark each context as "on hold". This way, the tasks don't show up in your Available or Due perspectives. Since the tasks are assigned to other people, there's no need for you to worry about or even seem them.
- * Weekly Report - Finally, this perspective generates a list of everything I've accomplished in the last week &mdash; grouped by project and ordered by date completed. This is a great tool to have at your disposal during stand-ups or review meetings with your boss.
+1.  Group people by company. This lets me see not only who at Yahoo! I'm waiting on, but also any 3rd party vendors.  
+2.  Make sure you mark each context as "on hold". This way, the tasks don't show up in your Available or Due perspectives. Since the tasks are assigned to other people, there's no need for you to worry about or even seem them.
+3.  [Weekly Report](http://cdn.clickontyler.com/blog/of-weekly.png) - Finally, this perspective generates a list of everything I've accomplished in the last week &mdash; grouped by project and ordered by date completed. This is a great tool to have at your disposal during stand-ups or review meetings with your boss.
 
 It's hard to describe how incredibly powerful Perspectives are until you actually spend a few days with them in your workflow. Other task managers have smart folders or dedicated "Today" lists, but they absolutely pale in comparison to the flexibility that Perspectives afford.
 
