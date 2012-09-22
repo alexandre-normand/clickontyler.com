@@ -12,6 +12,7 @@ layout: nil
 	<meta name="description" content="North Carolina Traffic is the best way to stay informed about the latest road conditions throughout North Carolina using your iPhone or iPod Touch." />
 	<meta name="language" content="en" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="apple-itunes-app" content="app-id=465164849"/>
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/north-carolina-traffic/css/screen5.css" />
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/north-carolina-traffic/css/jquery.fancybox-1.3.4.css" />

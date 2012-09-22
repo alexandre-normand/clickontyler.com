@@ -12,6 +12,7 @@ layout: nil
 	<meta name="description" content="Connecticut Traffic is the best way to stay informed about the latest road conditions throughout Connecticut using your iPhone or iPod Touch." />
 	<meta name="language" content="en" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="apple-itunes-app" content="app-id=485836810"/>
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/connecticut-traffic/css/screen4.css" />
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ site.cdn_url }}/connecticut-traffic/css/jquery.fancybox-1.3.4.css" />
