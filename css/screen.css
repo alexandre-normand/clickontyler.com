@@ -58,6 +58,7 @@ body { width:1000px; margin:0 auto; background-color:#f2f2f2; background-image:u
 .card-n2 { background:url('{{ site.cdn_url }}/images/card-n2.png'); }
 .card-q { background:url('{{ site.cdn_url }}/images/card-q.png'); margin-right:20px; }
 .card-inc { background:url('{{ site.cdn_url }}/images/card-inc.png'); }
+.card-hb { background:url('{{ site.cdn_url }}/images/card-hb.png'); }
 .card-soon { background:url('{{ site.cdn_url }}/images/card-soon.png'); }
 
 .card h3 { font-size:30px; margin-left:230px; margin-top:30px; }
