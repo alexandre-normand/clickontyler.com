@@ -5,6 +5,8 @@ layout: post
 permalink: /blog/2009/08/how-to-share-your-virtual-hosts-on-the-local-network/index.html
 slug: how-to-share-your-virtual-hosts-on-the-local-network
 ---
+**This article is out of date. VirtualHostX no longer supports local network sharing using Bonjour. That feature has been replaced with [a new and better way of sharing your virtual hosts](http://support.clickontyler.com/a/31/virtualhostx-xip-io-support/).**
+
 One of the major new features of [VirtualHostX 2.0](http://clickontyler.com/virtualhostx/) is the ability to share your virtual hosts over the local network. Its implementation has caused some confusion among users (my fault), so I wanted to take a few minutes to explain how local sharing works and how to use it.
 
 VirtualHostX is great for testing your development sites locally on your Mac, but what happens when you want to show those sites to someone else or test them on a Windows machine? Prior to version 2.0 you had two choices. You could, one, ask that person to step over to your screen or, two, manually edit the hosts file on their Mac (or virtual machine), which totally defeats the purpose of VirtualHostX.
