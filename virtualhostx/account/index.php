@@ -38,11 +38,10 @@ permalink: /index.php
 		<!-- <p>New Password: <input type="text" name="password" value="" id="password"> <input type="submit" name="btnPassword" value="Change Password" id="btnPassword"></p> -->
 	</form>
 
-	<h3>Purchase Credits</h3>
-	<p><em><a href="https://sites.fastspring.com/clickontyler/instant/LiftOff">5 Credits</a></em></p>
-	<p><em><a href="https://sites.fastspring.com/clickontyler/instant/LiftOff">10 Credits</a></em> - Save 10%</p>
-	<p><em><a href="https://sites.fastspring.com/clickontyler/instant/LiftOff">25 Credits</a></em> - Save 20%</p>
-	<p><em><a href="https://sites.fastspring.com/clickontyler/instant/LiftOff">Monthly Subscription</a></em> - a monthly subscription to Lift Off lets you use the service as often as you want.</p>
+	<?PHP if($VHXAuth->user->subscription_active == 0) : ?>
+	<h3>Subscribe to Lift Off</h3>
+	<p><em><a href="https://sites.fastspring.com/clickontyler/instant/LiftOff">Monthly Subscription</a></em> - a monthly subscription to Lift Off lets you use the service as often as you want and is only $3/month. You can cancel at any time.</p>
+	<?PHP endif; ?>
 
 	<h3>Purchase History</h3>
 	<ul>
@@ -64,3 +63,4 @@ permalink: /index.php
 		</tr>
 		<?PHP endforeach; ?>
 	</table>
+
