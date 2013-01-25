@@ -8,7 +8,7 @@ permalink: /do-upgrade.php
 
 	$db = Database::getDatabase();
 	$email = $db->escape(isset($_POST['email']) ? $_POST['email'] : 'noemail');
-	$row = $db->getRow("SELECT * FROM shine_orders WHERE app_id = '3' AND payer_email = '$email' ORDER BY dt DESC");
+	$row = $db->getRow("SELECT * FROM shine_orders WHERE (app_id = '2' OR app_id = '3' OR app_id = '15')  AND payer_email = '$email' ORDER BY dt DESC");
 	
 	$out = '';
 	
@@ -18,7 +18,7 @@ permalink: /do-upgrade.php
 	}
 	else
 	{
-		if($row['dt'] > '2011-06-01 00:00:00')
+		if($row['dt'] > '2012-09-25 00:00:00')
 		{
 			if($row['upgrade_coupon'] == '')
 			{
@@ -26,7 +26,7 @@ permalink: /do-upgrade.php
 			}
 			else
 			{
-			    $app = new Application(15);
+			    $app = new Application(23);
 
 				$o = new Order();
 				$o->first_name  = $row['first_name'];
@@ -35,27 +35,28 @@ permalink: /do-upgrade.php
 				$o->app_id      = $app->id;
 				$o->type        = 'Upgrade';
 				$o->dt          = dater();
-				$o->item_name   = 'VirtualHostX 3.0';
-				$o->notes       = 'Automated VirtualHostX 3.0 upgrade';
+				$o->item_name   = 'VirtualHostX 4.0';
+				$o->notes       = 'Automated VirtualHostX 4.0 upgrade';
 				$o->insert();
 
 				$o->generateLicense();
 				$o->emailLicense();
 
-				$out .= "<p>Yay! You qualified for a free upgrade to VirtualHostX 3.0. We have emailed an upgraded license key to you at " . $row['payer_email'] . ". Enjoy!</p>";
+				$out .= "<p>Yay! You qualified for a free upgrade to VirtualHostX 4.0. We have emailed an upgraded license key to you at " . $row['payer_email'] . ". Enjoy!</p>";
 
-				$db->query("UPDATE shine_orders SET upgrade_coupon = '' WHERE app_id = '3' AND payer_email = '$email'");
+				$db->query("UPDATE shine_orders SET upgrade_coupon = '' WHERE (app_id = '2' OR app_id = '3' OR app_id = '15')  AND payer_email = '$email' LIMIT 1");
 			}
-		} else if(strlen($row['upgrade_coupon']) > 0)
+		}
+		else if(strlen($row['upgrade_coupon']) > 0)
 		{
 			$url = "https://sites.fastspring.com/clickontyler/instant/virtualhostx?coupon=" . $row['upgrade_coupon'];
 			redirect($url);
 		}
 		else
 		{
-			$out .= "<p>Our records show that you have already upgraded to VirtualHostX 3.0. If you think this is a mistake, or just need help <a href='/support/'>looking up a lost license</a>, feel free to contact us at <a href='mailto:support@clickontyler.com'>support@clickontyler.com</a>.</p>";
+			$out .= "<p>Our records show that you have already upgraded to VirtualHostX 4.0. If you think this is a mistake, or just need help <a href='/support/'>looking up a lost license</a>, feel free to contact us at <a href='mailto:support@clickontyler.com'>support@clickontyler.com</a>.</p>";
 		}
 	}
 ?>
-<h2 class="title">VirtualHostX 3.0 Upgrade</h2>
+<h2 class="title">VirtualHostX 4.0 Upgrade</h2>
 <?PHP echo $out; ?>
