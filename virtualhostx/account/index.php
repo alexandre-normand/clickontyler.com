@@ -29,7 +29,7 @@ permalink: /index.php
 ?>
 	<h2>Your Account</h2> 
 	<p><em>Manage your Lift Off account</em></p>
-	<p>Thanks for using Lift Off. From this page you can purchase a subscription or pay-as-you-go credits and view recent transactions<!-- , and change your account password -->.</p>
+	<p>Thanks for using Lift Off. From this page you can purchase a subscription and view recent transactions<!-- , and change your account password -->.</p>
 	<p>If you have any questions or need further help, feel free to contact us at <a href="mailto:support@clickontyler.com">support@clickontyler.com</a></p>
 
 	<h3>Account Info</h3>
