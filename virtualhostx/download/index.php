@@ -1,6 +1,6 @@
 <?PHP
 	require '/var/www/shine.clickontyler.com/includes/master.inc.php';
-	$v = DBObject::glob('Version', 'SELECT * FROM shine_versions WHERE app_id = 23 ORDER BY dt DESC LIMIT 1');
+	$v = DBObject::glob('Version', 'SELECT * FROM shine_versions WHERE app_id = 15 ORDER BY dt DESC LIMIT 1');
 	$v = array_pop($v);
 	$v->downloads++;
 	$v->update();
