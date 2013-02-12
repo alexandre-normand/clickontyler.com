@@ -1,5 +1,5 @@
 ---
-title: VirtualHostX 3.0 Upgrade
+title: VirtualHostX 4.0 Upgrade
 layout: page
 permalink: /do-upgrade.php
 ---

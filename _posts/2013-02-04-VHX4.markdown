@@ -1,0 +1,37 @@
+---
+date: 2013-02-04 20:57:14
+title: VirtualHostX 4.0 is Now Available
+layout: post
+permalink: /blog/2013/02/virtualhostx-4-now-available/index.html
+slug: virtualhostx-4-now-available
+---
+
+Guess what? [VirtualHostX 4.0](http://clickontyler.com/virtualhostx/) is now available for everyone to download and purchase! This major new release comes with a host of new features that I'd like to introduce you to.
+
+### AutoRefresh
+
+First up, is AutoRefresh. This is a new feature designed to speed up your web development workflow. VirtualHostX now provides you with a snippet of JavaScript which you add to the websites you're working on locally. That snippet opens a connection back to VirtualHostX. Any time you make a change to your website files, VirtualHostX notices the change and sends a signal to your website telling it to refresh. It may sound like a simple thing, but when you experience it in action it's almost magical. You never have to save your changes, flip back to your browser, and hit reload. It's all automatic now.
+
+AutoRefresh is smart, too. You can optionally give it a command to run before it refreshes your site. So, if you're using a CMS like Jekyll or managing your CSS with SASS, you can tell VHX to compile your site whenever it detects a change.
+
+### A New Server Status Window
+
+One of my goals with this release is to give people more insight into Apache. The new Server Status window provides access to your Apache error and access logs. It also gives you on/off switches to control PHP and Perl. I often get emails from folks who have setup their virtual hosts, but can't get PHP working. Now it's just one click away.
+
+![Server Status Window](http://cdn.clickontyler.com/blog/VHX4-SS.png)
+
+### Permissions Doctor
+
+A common problem folks have when setting up virtual hosts is the dreaded 403 Forbidden error. This happens frequently when you store your website files in a non-standard location and accounts for nearly 50% of the support emails I receive. Now, in version 4.0, is a new feature I call the Permissions Doctor. VirtualHostX will automatically display a red warning light next to your virtual hosts's local path if it detects that folder's permissions are incorrect. You can also manually run this check by choosing "Check Folder Permissions..." from the "Virtual Host" menu. This will bring up a new window that walks through your virtual host's folder structure and displays each folder's UNIX permissions. For any folders that seem out of whack, VirtualHostX will explain the problem and even offer the appropriate `chmod` command to fix the error.
+
+![Permissions Doctor](http://cdn.clickontyler.com/blog/VHX4-PD.png)
+
+### VirtualHostX for iPhone and iPad
+
+Finally, VHX 4.0 comes with a free companion app for your iPhone and iPad. VirtualHostX for iOS automatically discovers your shared virtual hosts and gives you a one-tap way to open them in Mobile Safari on your iDevice. This means you never have to worry about mistyping a long (xip.io) Local Domain Name or Lift Off URL.
+
+![VirtualHostX for iOS](http://cdn.clickontyler.com/blog/VX4-iPhone.jpg)
+
+### Upgrades for Existing Customers
+
+I hope all the new features in version 4.0 have you excited to upgrade. I've had a blast building and testing them these last few months. Existing customers can upgrade for 50% off. For those of you who recently purchased version 3.0 (since October 1, 2012), you can upgrade for free.
