@@ -17,7 +17,7 @@ The method I finally decided on solves each of these problems. It generates a st
 
 The code is hosted on Github. [Go forth and fork](http://gist.github.com/521810).
 
-{% highlight php linenos %}
+{% highlight php  %}
 <?PHP
 // Generates a strong password of N length containing at least one lower case letter,
 // one uppercase letter, one digit, and one special character. The remaining characters

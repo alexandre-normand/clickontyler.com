@@ -11,7 +11,7 @@ Luckily, we can solve this with Xcode 4's new "Behavior" settings and a little A
 
 Open up your favorite text editor and create the following script:
 
-{% highlight bash linenos %}
+{% highlight bash  %}
 #!/bin/sh
 osascript -e 'tell app "System Events" to set position of window 1 of process "iOS Simulator" to {-864, 134}'
 {% endhighlight %}

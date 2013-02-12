@@ -40,7 +40,7 @@ In any case, here's my analogous solution to the 50 States problem using PHP.
 (For obvious reasons, my code is nearly line by line identical to Anders'
 Python solution.)
 
-{% highlight php linenos %}
+{% highlight php  %}
 <?PHP
     $states = array("alabama","alaska","arizona","arkansas","california","colorado",
         "connecticut","delaware","florida","georgia","hawaii","idaho",

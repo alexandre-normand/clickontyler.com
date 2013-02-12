@@ -9,7 +9,7 @@ slug: syncing-your-adium-chat-logs-into-dropbox-again
 
 First, if you already have Adium on multiple machines, copy all your logs over to a single Mac. You can merge the folders easily with an app like [Changes](http://connectedflow.com/changes/). Once you've got a canonical folder of all your combined chat logs, place it somewhere in your Dropbox. Then...
 
-{% highlight bash linenos %}
+{% highlight bash  %}
 cd "~/Library/Application Support/Adium 2.0/Users/Default/"
 mv Logs ~/Desktop/LogsBackup
 ln -s ~/Dropbox/Path/To/Adium/Logs/ Logs

@@ -10,7 +10,7 @@ at work, we still have conflicting coding styles within the office. I fall
 squarely into the "braces are bad" camp. If an `if` statement
 doesn't require braces to work, then it shouldn't have them. For example
 
-{% highlight c linenos %}
+{% highlight c  %}
 if(something)
     do_this();
 else

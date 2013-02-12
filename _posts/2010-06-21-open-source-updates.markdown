@@ -15,7 +15,7 @@ Fast forward to last week, Apple released an [official Find My iPhone client](ht
 
 This [new version of Sosumi](http://github.com/tylerhall/sosumi) is available on GitHub and extremely easy to use:
 
-{% highlight php linenos %}
+{% highlight php  %}
 <?PHP
 include 'class.sosumi.php';
 $ssm = new Sosumi('your-username', 'your-password');
@@ -40,14 +40,14 @@ For an example of the type of HTML the compressor produces, just take a look at 
 
 My [google-shell](http://github.com/tylerhall/google-shell) project is another small command line utility. It's a simple interface to Google's search results that talks to their [AJAX Search API](http://code.google.com/apis/ajaxsearch/). It lets you easily pull down the top results for any query &mdash; including the result's URL, title, and a brief abstract from the page. It has quite a few options that allow you to customize the output to be either human readable or digestible to other scripts. For example, here's an *ugly*, *ugly* shell command that shows off the power of what having Google at your fingertips can do:
 
-{% highlight bash linenos %}
+{% highlight bash  %}
 URL=`gshell -fun1 "imdb american beauty"`; curl $URL | \
 sed -n 's/.*\([0-9]\.[0-9]\)\/10.*/\1/p' | head -n1
 {% endhighlight %}
 
 In case you don't speak nerd, that tells google-shell to return only the URL of the first result for the query "imdb american beauty". In other words, the same thing as Google's "I'm Feeling Lucky" option. It then takes that URL, downloads it, and pipes it through a messy `sed` and `head` command that extracts the IMDB rating for _American Beauty_. Granted, that's quite a lot to type &mdash; especially considering you could open a web browser and google it yourself much faster. However, if you were to add that long command as an alias in your Bash profile. you could very quickly write a command like
 
-{% highlight bash linenos %}
+{% highlight bash  %}
 imdb "american beauty"
 {% endhighlight %}
 

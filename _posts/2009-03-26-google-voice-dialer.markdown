@@ -9,7 +9,7 @@ Last year I posted a PHP script that lets you [dial phone numbers using Grand Ce
 
 The syntax is the same
 
-{% highlight php linenos %}
+{% highlight php  %}
 <?PHP
 $gv = new GoogleVoice('you@gmail.com', 'password');
 $gv->call($your_number, $their_number);

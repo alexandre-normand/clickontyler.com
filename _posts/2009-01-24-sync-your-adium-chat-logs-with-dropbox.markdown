@@ -7,13 +7,13 @@ slug: sync-your-adium-chat-logs-with-dropbox
 ---
 Here's a handy trick that will let you sync your <a href="http://adiumx.com">Adium</a> chat logs across multiple Macs using <a href="https://www.getdropbox.com/">Dropbox</a>. From a command line, `cd` into your Dropbox folder
 
-{% highlight bash linenos %}
+{% highlight bash  %}
 cd ~/Dropbox
 {% endhighlight %}
 
 and then
 
-{% highlight bash linenos %}
+{% highlight bash  %}
 ln -s ~/Library/Application\ Support/Adium\ 2.0/Users/Default/Logs "Adium Logs"
 {% endhighlight %}
 

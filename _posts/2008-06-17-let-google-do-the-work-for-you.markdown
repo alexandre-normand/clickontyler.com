@@ -17,7 +17,7 @@ Going back to the IMDB example, if you run an I'm Feeling Lucky search for "site
 
 Here's the code. Pass it a search query and it'll extract the redirect Google sends back.
 
-{% highlight php linenos %}
+{% highlight php  %}
 <?PHP
     function feelingLucky($q)
     {
