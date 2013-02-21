@@ -50,7 +50,7 @@ An amazing (and perhaps obvious) result of working for yourself is that you rare
 
 This means in almost every instance where I (or my boss) would normally assign a task a due date, I instead give it a start date. It's great because items I can't currently work on stay out of my view and only show up when I'm ready to work on them.
 
-Replacing due dates with start dates has dramtically increased how often I add something to my inbox. I used to not worry about adding trivial small reminders because I didn't want them clogging up my task list. But now that I've discovered the power of start dates, I throw everything in there with a start date, knowing it won't appear until I can actually do something about it. An added bonus is that OmniFocus rarely shows an overdue or due soon badge, which means if one *does* appear, I know I really do have something due. Less false positives mean I pay better attention and am less prone to ignoring the warning.
+Replacing due dates with start dates has dramtically increased how often I add something to my inbox. I used to worry about adding trivial small reminders because I didn't want them clogging up my task list. But now that I've discovered the power of start dates, I throw everything in there with a start date, knowing it won't appear until I can actually do something about it. An added bonus is that OmniFocus rarely shows an overdue or due soon badge, which means if one *does* appear, I know I really do have something due. Less false positives mean I pay better attention and am less prone to ignoring the warning.
 
 ### Mandatory Conclusion
 
