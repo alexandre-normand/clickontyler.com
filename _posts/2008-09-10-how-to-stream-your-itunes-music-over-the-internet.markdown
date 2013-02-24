@@ -21,13 +21,13 @@ Then, poke a hole in your router's firewall to that machine on TCP port 3689. He
 
 Then, with that done, anytime you want to listen to your music elsewhere, run these two commands in Terminal _on the Mac you're listening with_ &mdash; not your Mac at home.
 
-{% highlight bash  %}
+{% highlight bash %}
 ssh your_username@your-home-ip-address -N -f -L 3689:your-home-ip-address:3689
 {% endhighlight %}
 
 That creates a tunnel from port 3689 on your local machine to port 3689 on your Mac at home. (That's why you needed to open the hole in your firewall.)
 
-{% highlight bash  %}
+{% highlight bash %}
 mDNSProxyResponderPosix 127.0.0.1 squeal "My Music" _daap._tcp. 3689 &
 {% endhighlight %}
 

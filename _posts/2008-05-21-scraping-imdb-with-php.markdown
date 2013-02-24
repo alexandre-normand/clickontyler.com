@@ -11,7 +11,7 @@ So, here's a quick PHP class that takes a movie title (doesn't have to be exact)
 
 Using the scraper is simple.
 
-{% highlight php  %}
+{% highlight php %}
 <?PHP
     $m = new MediaInfo();
     $info = $m->getMovieInfo('American Beauty');
@@ -20,7 +20,7 @@ Using the scraper is simple.
 
 will output:
 
-{% highlight php  %}
+{% highlight php %}
     Array
     (
         [kind] => movie

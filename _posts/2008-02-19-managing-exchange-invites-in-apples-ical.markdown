@@ -58,7 +58,7 @@ I'm done.
 To move Exchange invites from Mail into iCal, I use this AppleScript. Warning:
 I'm hardly an AppleScript expert, so suggestions are very much welcome.
 
-{% highlight applescript  %}
+{% highlight applescript %}
     tell application "Mail"
         set theSelectedMessages to selection
         repeat with theMessage in theSelectedMessages
@@ -88,7 +88,7 @@ event to the OWA PHP script which then marks the event as such in your public
 calendar. Here's the "Accept Invite" AppleScript. The other two are basically
 identical.
 
-{% highlight applescript  %}
+{% highlight applescript %}
     tell application "Mail"
         set theSelectedMessages to selection
         repeat with theMessage in theSelectedMessages

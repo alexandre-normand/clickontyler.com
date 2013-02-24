@@ -29,7 +29,7 @@ First, in the event of a disaster or robbery, I have a backup stored elsewhere I
 
 Oh, and for those who are extra curious, I have the following cron job on my Mac:
 
-{% highlight bash  %}
+{% highlight bash %}
 00 05 * * * /usr/sbin/diskutil mount /dev/disk1s3
 {% endhighlight %}
 

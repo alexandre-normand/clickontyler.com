@@ -19,7 +19,7 @@ I've done my best to keep things logical and easy to use. Here's a quick example
 
 A basic content block, or module, is created with the following markup
 
-{% highlight html  %}
+{% highlight html %}
 <div class="block">
     <div class="hd">
         <h2>Your Header Content</h2>
@@ -38,7 +38,7 @@ Content blocks resize to fit their surroundings. That means you can take the sam
 
 We can also extend the block to have a tabbed appearance. To do this, we just need to add an extra `tabs` class and define our tabs using a &lt;ul&gt;.
 
-{% highlight html  %}
+{% highlight html %}
 <div class="block tabs">
     <div class="hd">
         <ul>
@@ -62,7 +62,7 @@ However, you'll notice than by using an unordered list to build our tabs, we had
 
 Let's take this example one step further and change the appearance of the tabs by making them look separated. All we have to do is add a `spaces` class to the content block.
 
-{% highlight html  %}
+{% highlight html %}
 <div class="block tabs spaces">
     <div class="hd">
         <ul>

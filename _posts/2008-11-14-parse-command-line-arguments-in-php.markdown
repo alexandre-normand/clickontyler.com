@@ -11,7 +11,7 @@ I pulled in some code from [PHP-AWS](http://code.google.com/p/php-aws/) and got 
 
 It's a small class &mdash; about 60 lines. It could easily be turned into a single function instead, but I like using classes as ad-hoc namespaces. Anyway, it's fairly robust for a twenty minute solution. Here are a few examples of the syntax it supports.
 
-{% highlight bash  %}
+{% highlight bash %}
 cmd -a -b -c // Single letter flags
 
 cmd -abc // Same as above
@@ -19,7 +19,7 @@ cmd -abc // Same as above
 
 Beyond setting a few flags, you can also assign values to those flags.
 
-{% highlight bash  %}
+{% highlight bash %}
 cmd -a foobar.jpg -bc
 {% endhighlight %}
 
@@ -27,7 +27,7 @@ In this case, `b` and `c` are set just like the previous example. And `a` is set
 
 Double-dash, long names are also supported.
 
-{% highlight bash  %}
+{% highlight bash %}
 cmd --some-flag
 cmd --another-flag=charlie // You can use an equal sign
 cmd --another-flag charlie // Or not. It's up to you.
@@ -45,7 +45,7 @@ My point is that you can use nearly any standard Unix convention.
 
 So, given that last example, here's how you'd parse it using the PHP class.
 
-{% highlight php  %}
+{% highlight php %}
 <?PHP
     $args = new Args();
     

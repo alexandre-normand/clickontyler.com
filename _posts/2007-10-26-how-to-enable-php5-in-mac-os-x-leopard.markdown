@@ -12,7 +12,7 @@ PHP 5 pre-installed. To enable PHP simply:
 * Open your favorite text editor and edit `/private/etc/apache2/httpd.conf`
 * Uncomment line number 114. It should read
 
-{% highlight bash  %}
+{% highlight bash %}
 `LoadModule php5_module    libexec/apache2/libphp5.so`
 {% endhighlight %}
 

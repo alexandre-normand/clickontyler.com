@@ -44,7 +44,7 @@ If you've got any questions about this, feel free to [contact me](http://clickon
 
 For those users who are still worried and really don't like the idea of apps checking for updates, I've left a "back door" method in place for you to turn them off if you really want to. Just open up a Terminal window and run this command:
 
-{% highlight bash  %}
+{% highlight bash %}
 defaults write com.clickonideas.web.nottingham SUEnableAutomaticChecks -boolean NO
 {% endhighlight %}
 
