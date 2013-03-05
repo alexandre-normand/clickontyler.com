@@ -9,6 +9,8 @@ Today I thought I'd share one of the more esoteric Hazel rules I use to monitor 
 
 This rule monitors the folder containing all of my git repositories and highlights any sub-folders that have uncommitted changes. At the end of a work day, it's a great way to see at a glance which projects have unsaved changes.
 
+![Hazel Screenshot 0](http://cdn.clickontyler.com/blog/hazel0.png)
+
 Here's a screenshot of my Hazel rules...
 
 ![Hazel Screenshot 1](http://cdn.clickontyler.com/blog/hazel1.png)
