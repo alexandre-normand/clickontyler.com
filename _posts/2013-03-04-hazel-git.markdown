@@ -1,0 +1,43 @@
+---
+date: 2013-03-04 20:57:14
+title: Using Hazel to Highlight any Uncommitted git Changes
+layout: post
+permalink: /blog/2013/03/hazel-and-git/index.html
+slug: hazel-and-git
+---
+Today I thought I'd share one of the more esoteric Hazel rules I use to monitor the files on my Mac. (If you're not familiar with Hazel, an indespensible Mac utility that everyone should own, here's a [brief intro](http://www.macstories.net/stories/why-i-started-using-hazel-for-mac/).)
+
+This rule monitors the folder containing all of my git repositories and highlights any sub-folders that have uncommitted changes. At the end of a work day, it's a great way to see at a glance which projects have unsaved changes.
+
+![Hazel Screenshot 0](http://cdn.clickontyler.com/blog/hazel0.png)
+
+Here's a screenshot of my Hazel rules...
+
+![Hazel Screenshot 1](http://cdn.clickontyler.com/blog/hazel1.png)
+
+![Hazel Screenshot 2](http://cdn.clickontyler.com/blog/hazel2.png)
+
+![Hazel Screenshot 3](http://cdn.clickontyler.com/blog/hazel3.png)
+
+And here's the shell script that is embedded in rule #1...
+
+{% highlight bash %}
+dirname=$1
+if [ -f $dirname ] ; then
+	dirname=`dirname $dirname`
+fi
+
+cd $dirname
+
+if git status | grep --quiet "working directory clean"; then
+	exit 1
+else
+	exit 0
+fi
+{% endhighlight %}
+
+As you can see in the first rule, the shell script changes directories into the git project and then pipes `git status` through `grep` to check for any changes. Any modified working directories are matched and highlighted red in the Finder.
+
+The second rule un-highlights any folders which don't get matched - folders with clean working directories.
+
+If you'd like to import the rules into your own copy of Hazel, you can [download the rules here](http://cdn.clickontyler.com/blog/GitWorkingDirectory.hazelrules).
