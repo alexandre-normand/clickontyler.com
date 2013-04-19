@@ -7,7 +7,7 @@ slug: the-dark-tower
 ---
 In 1997 I created
 TheDarkTower.net - a website which focused on a
-series of seven books by Stephen King called _[The Dark Tower](http://en.wikipedia.org/wiki/The_Dark_Tower_(series))_. During the eight years I ran the site
+series of seven books by Stephen King called _[The Dark Tower](http://bit.ly/11mmMm8)_. During the eight years I ran the site
 it grew to become the largest Stephen King website on the internet. In August 2004, TheDarkTower.net was a [featured website on the Sci-Fi Channel](http://www.scifi.com/sfw/issue381/site.html).
 With nine-million visits each month and a mailing list of over fifteen
 thousand members, TheDarkTower.net grew larger than I ever would have
