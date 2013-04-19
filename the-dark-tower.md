@@ -6,7 +6,7 @@ permalink: /the-dark-tower/index.html
 slug: the-dark-tower
 ---
 In 1997 I created
-TheDarkTower.net - a website which focused on a
+[TheDarkTower.net](http://web.archive.org/web/20050406010153/http://www.thedarktower.net/) - a website which focused on a
 series of seven books by Stephen King called _[The Dark Tower](http://bit.ly/11mmMm8)_. During the eight years I ran the site
 it grew to become the largest Stephen King website on the internet. In August 2004, TheDarkTower.net was a [featured website on the Sci-Fi Channel](http://www.scifi.com/sfw/issue381/site.html).
 With nine-million visits each month and a mailing list of over fifteen
@@ -17,7 +17,7 @@ But it was more than just a website &mdash; TheDarkTower.net became my
 playground &mdash; a showcase for the two sides of my personality. As a web
 developer I managed my own server, did front-end design work, and wrote the
 back-end code to solve new problems and challenges as the site grew. I created
-a [full-text search engine](http://www.thedarktower.net/booksearch/) covering
+a [full-text search engine](http://web.archive.org/web/20040610010406/http://thedarktower.net/booksearch/index.php) covering
 all of Stephen King's novels. Users could search for a character, location, or
 any phrase and TheDarkTower.net returned the book, page, and sentence that
 contained their query. The Booksearch predated both
