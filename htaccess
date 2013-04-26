@@ -21,3 +21,6 @@ RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
 
 RewriteCond %{HTTP_HOST} ^www\.clickonideas\.com$
 RewriteRule ^(.*) http://clickontyler.com/$1 [L,R=301]
+
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
