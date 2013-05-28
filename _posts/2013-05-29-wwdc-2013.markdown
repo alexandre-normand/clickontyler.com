@@ -1,0 +1,8 @@
+---
+date: 2013-05-28 20:57:14
+title: WWDC 2013 - Come Say Hello
+layout: post
+permalink: /blog/2013/05/wwdc-2013/index.html
+slug: wwdc-2013
+---
+For the first time in seven years, I didn't get a ticket to WWDC. Sadness. But! I'll still be in San Francisco for the week of the conference. If anyone would like to meetup, have a beer, or just say hello, feel free to get in touch. I love meeting customers and other developers. You can reach out to me [via email](mailto:tylerhall@gmail.com) or [via Twitter](http://twitter.com/tylerhall).
