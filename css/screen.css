@@ -116,9 +116,9 @@ h2.title span { color:#cb623c; }
 #product .image { float:right; }
 #product h2 { font-family:"news"; font-size:40px; color:#fff; text-transform:uppercase; }
 #product p { font-family:"Georgia"; font-size:16px; color:#fff; line-height:180%; margin-bottom:1em; }
-#product .btn { font-family:"Georgia"; font-size:30px; color:#fff; background-color:#969696; padding:7px; text-decoration:none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
-#product .btn:hover { text-decoration:underline; }
-#product .btn2 { background-color:#cb623c; }
+#product .btn, #quantity_overlay .btn { font-family:"Georgia"; font-size:30px; color:#fff; background-color:#969696; padding:7px; text-decoration:none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+#product .btn:hover, #quantity_overlay  .btn:hover { text-decoration:underline; }
+#product .btn2, #quantity_overlay .btn2 { background-color:#cb623c; }
 
 #quotes { background:url('{{ site.cdn_url }}/images/quotes.jpg'); border-bottom:2px solid #ddd; padding:2em 0;}
 #quotes .wrapper { border:2px solid #e4dec7; border-width:2px 0; width:680px; padding:1em; text-align:center; }
@@ -135,6 +135,10 @@ h2.title span { color:#cb623c; }
 
 .col1 { float:left; width:450px; }
 .col2 { float:right; width:450px; }
+
+#quantity_overlay { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.5); text-align:center; padding-top:400px; }
+#quantity_overlay div { width:700px; margin:0 auto; background-color:#fff; border:3px solid #000; padding:10px; }
+#quantity_overlay div h2 { font-family:"news"; color:#cb623c; font-size:30px; text-transform:uppercase; margin-bottom:0.5em; }
 
 pre { padding:1em; border:2px solid #999; overflow:scroll; margin-bottom:1em; }
 .highlight .lineno { background-color:#999; color:#fff; width:2em; text-align:right; display:inline-block; }

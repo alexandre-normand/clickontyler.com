@@ -42,3 +42,8 @@ function cycleImages(){
       	next.css('z-index', 3).addClass('active');
       });
 }
+
+$("#buynow").click(function() {
+	$("#quantity_overlay").css("display", "block");
+	return false;
+});
