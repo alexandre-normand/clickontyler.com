@@ -6,4 +6,4 @@
 		$q = intval($_GET['q']);
 	}
 	
-    header('Location: https://sites.fastspring.com/clickontyler/instant/virtualhostx?quantity=' . $q);
+    header('Location: http://sites.fastspring.com/clickontyler/product/virtualhostx?quantity=' . $q);

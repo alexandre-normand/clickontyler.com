@@ -5,4 +5,4 @@
 		$q = intval($_GET['q']);
 	}
 	
-    header('Location: https://sites.fastspring.com/clickontyler/instant/hostbuddy?quantity=' . $q);
+    header('Location: http://sites.fastspring.com/clickontyler/product/hostbuddy?quantity=' . $q);
